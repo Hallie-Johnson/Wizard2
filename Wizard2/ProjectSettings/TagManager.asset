@@ -6,6 +6,13 @@ TagManager:
   tags:
   - Ground
   - Obstacle
+  - Rictusempra
+  - Skurge
+  - Diffindo
+  - Spongify
+  - Flipendo
+  - Alohomora
+  - Lumos
   layers:
   - Default
   - TransparentFX

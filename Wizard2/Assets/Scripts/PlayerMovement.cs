@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using System.Diagnostics;
 
 
 public class PlayerMovement : MonoBehaviour
@@ -26,6 +27,9 @@ public class PlayerMovement : MonoBehaviour
 
     public GameObject playerObject;
     public float heightOffset = 1f;
+
+    public List<Material> materials;
+    private Material material;
 
     // Start is called before the first frame update
     void Start()
@@ -58,10 +62,20 @@ public class PlayerMovement : MonoBehaviour
             }
 
             // Check if the hit object has the tag "Obstacle"
-            if (hit.collider.CompareTag("Obstacle"))
+            if (hit.collider.CompareTag("Rictusempra"))
             {
                 hitObstacle = true;
                 hitObstacleInfo = hit;  // Store the hit information
+                material = materials[0];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+
+            // Check if the hit object has the tag "Obstacle"
+            if (hit.collider.CompareTag("Skurge"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[1];
                 break; // Exit loop after hitting the first valid obstacle
             }
         }
@@ -79,6 +93,9 @@ public class PlayerMovement : MonoBehaviour
 
                 // Instantiate the plane at the adjusted midpoint
                 spawnedPlane = Instantiate(planePrefab, midpoint, Quaternion.identity);
+
+                Renderer renderer = spawnedPlane.GetComponent<Renderer>();
+                renderer.material = material;
             }
 
             // Ensure the plane always faces the camera

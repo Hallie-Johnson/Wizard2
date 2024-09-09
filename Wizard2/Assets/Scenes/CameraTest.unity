@@ -136,8 +136,8 @@ GameObject:
   - component: {fileID: 307808452}
   - component: {fileID: 307808451}
   m_Layer: 0
-  m_Name: Obstacle (1)
-  m_TagString: Obstacle
+  m_Name: Rictusempra
+  m_TagString: Rictusempra
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -726,6 +726,9 @@ MonoBehaviour:
   planePrefab: {fileID: 1629480015459518156, guid: a454bd512f15430439d2db6e666077e1, type: 3}
   playerObject: {fileID: 895631128}
   heightOffset: 1
+  materials:
+  - {fileID: 2100000, guid: 872404713f23c1146aee3274ef66d9dc, type: 2}
+  - {fileID: 2100000, guid: a1eab89eb0704244f8df3f46e6c133d5, type: 2}
 --- !u!65 &895631131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1185,7 +1188,7 @@ GameObject:
   - component: {fileID: 1481833040}
   - component: {fileID: 1481833039}
   m_Layer: 0
-  m_Name: Obstacle
+  m_Name: Wall
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1789,8 +1792,8 @@ GameObject:
   - component: {fileID: 1729605378}
   - component: {fileID: 1729605377}
   m_Layer: 0
-  m_Name: Obstacle (3)
-  m_TagString: Obstacle
+  m_Name: Skurge
+  m_TagString: Skurge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
