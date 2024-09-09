@@ -61,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
                 continue;
             }
 
-            // Check if the hit object has the tag "Obstacle"
+            #region Spell Checker
             if (hit.collider.CompareTag("Rictusempra"))
             {
                 hitObstacle = true;
@@ -70,7 +70,6 @@ public class PlayerMovement : MonoBehaviour
                 break; // Exit loop after hitting the first valid obstacle
             }
 
-            // Check if the hit object has the tag "Obstacle"
             if (hit.collider.CompareTag("Skurge"))
             {
                 hitObstacle = true;
@@ -78,6 +77,47 @@ public class PlayerMovement : MonoBehaviour
                 material = materials[1];
                 break; // Exit loop after hitting the first valid obstacle
             }
+
+            if (hit.collider.CompareTag("Diffindo"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[2];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+
+            if (hit.collider.CompareTag("Spongify"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[3];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+
+            if (hit.collider.CompareTag("Lumos"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[4];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+
+            if (hit.collider.CompareTag("Alohomora"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[5];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+
+            if (hit.collider.CompareTag("Flipendo"))
+            {
+                hitObstacle = true;
+                hitObstacleInfo = hit;  // Store the hit information
+                material = materials[6];
+                break; // Exit loop after hitting the first valid obstacle
+            }
+            #endregion
         }
 
         if (Input.GetMouseButton(0) && hitObstacle) // Check if the left mouse button is held down and an obstacle is hit
@@ -96,6 +136,9 @@ public class PlayerMovement : MonoBehaviour
 
                 Renderer renderer = spawnedPlane.GetComponent<Renderer>();
                 renderer.material = material;
+
+                MeshRenderer meshRenderer = spawnedPlane.GetComponent<MeshRenderer>();
+                meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
             }
 
             // Ensure the plane always faces the camera
