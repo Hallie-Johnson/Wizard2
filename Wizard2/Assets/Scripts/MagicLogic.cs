@@ -22,6 +22,22 @@ public class MagicLogic : MonoBehaviour
                 diffindoManager.ClearPath();
             }
         }
+        else if (other.CompareTag("Rictusempra"))
+        {
+            ManagerRictusempra rictusempraManager = other.GetComponent<ManagerRictusempra>();
+            if (rictusempraManager != null)
+            {
+                rictusempraManager.Stunned();
+            }
+        }
+        else if (other.CompareTag("Spongify"))
+        {
+            ManagerSpongify spongifyManager = other.GetComponent<ManagerSpongify>();
+            if (spongifyManager != null)
+            {
+                spongifyManager.EnableJumping();
+            }
+        }
     }
 
 
