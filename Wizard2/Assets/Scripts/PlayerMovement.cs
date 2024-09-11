@@ -7,29 +7,20 @@ using System.Diagnostics;
 
 public class PlayerMovement : MonoBehaviour
 {
+    // This script is used player movement
+
     public float speed = 5f;
     public float turnSpeed = 250;
-    private float jumpForce = 5f; // Force applied when jumping
+    private float jumpForce = 6f; // Force applied when jumping
     public bool isGrounded = true; // To check if the player is on the ground
     private Rigidbody rb;
 
-
     public Camera freeLookCamera1;
-    public float rotationSmoothTime = 0.1f;
-
-
+    private float rotationSmoothTime = 1f; //0.1f;
+    
     public Camera playerCamera;  // Assign your camera here
-    public float rayDistance = 100f;  // Maximum distance for the raycast
 
-    public GameObject planePrefab;  // Assign your plane prefab here
-    private float planeDistanceFromCamera = 3f;  // Distance to spawn the plane in front of the obstacle
-    private GameObject spawnedPlane;  // Reference to the spawned plane
 
-    public GameObject playerObject;
-    public float heightOffset = 1f;
-
-    public List<Material> materials;
-    private Material material;
 
     // Start is called before the first frame update
     void Start()
@@ -40,126 +31,6 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        #region Look at Spell Object
-
-        // Cast a ray from the center of the camera's viewport
-        Ray ray = playerCamera.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0));
-
-        // Get all objects the ray hits
-        RaycastHit[] hits = Physics.RaycastAll(ray, rayDistance);
-
-        // Variable to track if an obstacle is hit
-        bool hitObstacle = false;
-        RaycastHit hitObstacleInfo = default;  // Store information about the hit obstacle
-
-        // Loop through the hits and ignore objects tagged as "Player" or "Ground"
-        foreach (RaycastHit hit in hits)
-        {
-            if (hit.collider.CompareTag("Player") || hit.collider.CompareTag("Ground"))
-            {
-                // Skip objects with the "Player" or "Ground" tag
-                continue;
-            }
-
-            #region Spell Checker
-            if (hit.collider.CompareTag("Rictusempra"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[0];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Skurge"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[1];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Diffindo"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[2];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Spongify"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[3];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Lumos"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[4];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Alohomora"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[5];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-
-            if (hit.collider.CompareTag("Flipendo"))
-            {
-                hitObstacle = true;
-                hitObstacleInfo = hit;  // Store the hit information
-                material = materials[6];
-                break; // Exit loop after hitting the first valid obstacle
-            }
-            #endregion
-        }
-
-        if (Input.GetMouseButton(0) && hitObstacle) // Check if the left mouse button is held down and an obstacle is hit
-        {
-            // Spawn the plane if not already spawned
-            if (spawnedPlane == null)
-            {
-                // Calculate the midpoint between the player and the hit obstacle
-                Vector3 midpoint = (playerObject.transform.position + hitObstacleInfo.point) / 2;
-
-                // Adjust the Y position to raise the plane slightly above the midpoint
-                midpoint.y += heightOffset;
-
-                // Instantiate the plane at the adjusted midpoint
-                spawnedPlane = Instantiate(planePrefab, midpoint, Quaternion.identity);
-
-                Renderer renderer = spawnedPlane.GetComponent<Renderer>();
-                renderer.material = material;
-
-                MeshRenderer meshRenderer = spawnedPlane.GetComponent<MeshRenderer>();
-                meshRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
-            }
-
-            // Ensure the plane always faces the camera
-            if (spawnedPlane != null)
-            {
-                Vector3 directionToCamera = playerCamera.transform.position - spawnedPlane.transform.position;
-                Quaternion rotationToCamera = Quaternion.LookRotation(directionToCamera, Vector3.up);
-                spawnedPlane.transform.rotation = rotationToCamera;
-            }
-        }
-        else if (!Input.GetMouseButton(0) || !hitObstacle) // Check if the left mouse button is released or no obstacle is hit
-        {
-            if (spawnedPlane != null)
-            {
-                // Destroy the plane if it exists
-                Destroy(spawnedPlane);
-                spawnedPlane = null;
-            }
-        }
-
-        #endregion
 
         #region Player Movement
 

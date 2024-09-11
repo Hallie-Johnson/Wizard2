@@ -13,9 +13,14 @@ public class MagicLogic : MonoBehaviour
             {
                 shrinkManager.StartShrinking();
             }
-
-            // Destroy the particle immediately after triggering the shrink manager
-            //Destroy(gameObject);
+        } 
+        else if (other.CompareTag("Diffindo"))
+        {
+            ManagerDiffindo diffindoManager = other.GetComponent<ManagerDiffindo>();
+            if (diffindoManager != null)
+            {
+                diffindoManager.ClearPath();
+            }
         }
     }
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMagic : MonoBehaviour
 {
+    // This script is used particle spawning and sending to spell
 
     public Camera playerCamera;        // Reference to the player camera
     public GameObject particlePrefab;  // Particle effect prefab
