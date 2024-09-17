@@ -101,14 +101,21 @@ public class SpawnSpellIcons : MonoBehaviour
         AssignMaterial(tag);
     }
 
+    private Vector3 velocity = Vector3.zero;
+
     void UpdateCubePosition(RaycastHit hit)
     {
-        // Update the cube position to overlay the object
-        spawnedCube.transform.position = hit.point + hit.normal * surfaceOffset;
+        // Target position where the cube should overlay the object
+        Vector3 targetPosition = hit.point + hit.normal * surfaceOffset;
+
+        // Smoothly move the cube to the target position using SmoothDamp
+        spawnedCube.transform.position = Vector3.SmoothDamp(spawnedCube.transform.position, targetPosition, ref velocity, 0.1f);
 
         // Align the cube to face the player
         AlignCubeWithPlayer();
     }
+
+
 
     void AlignCubeWithPlayer()
     {

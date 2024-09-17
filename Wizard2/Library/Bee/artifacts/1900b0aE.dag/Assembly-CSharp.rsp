@@ -356,6 +356,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/MagicLogic.cs"
 "Assets/Scripts/ManagerDiffindo.cs"
+"Assets/Scripts/ManagerFlipendo.cs"
+"Assets/Scripts/ManagerLumos.cs"
 "Assets/Scripts/ManagerRictusempra.cs"
 "Assets/Scripts/ManagerSkurge.cs"
 "Assets/Scripts/ManagerSpongify.cs"

@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class ManagerDiffindo : MonoBehaviour
 {
-    // Call this method to start the shrinking process
     public void ClearPath()
     {
         Destroy(gameObject);

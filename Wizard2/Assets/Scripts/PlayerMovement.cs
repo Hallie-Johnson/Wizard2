@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     public float speed = 5f;
     public float turnSpeed = 250;
-    private float jumpForce = 6f; // Force applied when jumping
+    private float jumpForce = 10f; // Force applied when jumping
     public bool isGrounded = true; // To check if the player is on the ground
     private Rigidbody rb;
 
@@ -80,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
     // Check if the player is grounded by detecting collisions with the ground
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.CompareTag("Ground"))
+        if (collision.gameObject.CompareTag("Ground") || collision.gameObject.CompareTag("Wall") || collision.gameObject.CompareTag("Flipendo") || collision.gameObject.CompareTag("Spongify"))
         {
             isGrounded = true; // Set to true when touching the ground
         }
