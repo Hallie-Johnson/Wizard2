@@ -9,7 +9,7 @@ public class SpawnSpellIcons : MonoBehaviour
     public GameObject player;  // Reference to the player object
     public GameObject cubePrefab;  // Reference to the cube prefab
     public float maxRayDistance = 100f;  // Max distance for raycasting
-    public float surfaceOffset = 0.01f;  // Small offset to prevent the cube from being inside the object
+    private float surfaceOffset = 0.5f;  // Small offset to prevent the cube from being inside the object
 
     // List of materials corresponding to each tag
     public Material rictusempraMaterial;

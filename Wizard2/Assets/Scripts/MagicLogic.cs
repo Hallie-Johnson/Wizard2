@@ -9,6 +9,8 @@ public class MagicLogic : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Hit tag: " + other.tag);
+
         if (other.CompareTag("Skurge"))
         {
             ManagerSkurge shrinkManager = other.GetComponent<ManagerSkurge>();
@@ -121,115 +123,6 @@ public class MagicLogic : MonoBehaviour
                 lumosManager.ActivateLumos();
             }
         }
-
-
-
-
-
-        /*
-        else if (other.CompareTag("Flipendo"))
-        {
-            ManagerFlipendo flipendoManager = other.GetComponent<ManagerFlipendo>();
-            if (flipendoManager != null)
-            {
-                // Calculate the direction from the object to the player
-                Vector3 directionToPlayer = transform.position - other.transform.position;
-                directionToPlayer.Normalize();  // Normalize to get the direction only
-
-                // Determine which axis is the dominant one (X or Z) based on the player's position relative to the object
-                Vector3 pushDirection = Vector3.zero;
-                if (Mathf.Abs(directionToPlayer.x) > Mathf.Abs(directionToPlayer.z))
-                {
-                    // Player is to the left or right of the cube (dominant in X axis)
-                    if (directionToPlayer.x > 0)
-                    {
-                        // Player is to the right, push the object to the left
-                        pushDirection = Vector3.left; // Push to the left (-X)
-                    }
-                    else
-                    {
-                        // Player is to the left, push the object to the right
-                        pushDirection = Vector3.right; // Push to the right (+X)
-                    }
-                }
-                else
-                {
-                    // Player is in front or behind the cube (dominant in Z axis)
-                    if (directionToPlayer.z > 0)
-                    {
-                        // Player is in front, push the object backward
-                        pushDirection = Vector3.back; // Push backward (-Z)
-                    }
-                    else
-                    {
-                        // Player is behind, push the object forward
-                        pushDirection = Vector3.forward; // Push forward (+Z)
-                    }
-                }
-
-                // Perform a raycast in the push direction to check for walls
-                float pushDistance = 1f;  // Adjust based on your needs
-                RaycastHit hit;
-                if (!Physics.Raycast(other.transform.position, pushDirection, out hit, pushDistance, wallLayer))
-                {
-                    // No wall detected in the push direction, proceed with pushing
-                    flipendoManager.StartPush(other.gameObject, pushDirection);
-                }
-                else
-                {
-                    // Wall detected in the push direction, do not push
-                    Debug.Log("Wall detected in push direction. Push aborted.");
-                }
-            }
-        }
-
-
-
-
-        /*
-        else if (other.CompareTag("Flipendo"))
-        {
-            ManagerFlipendo flipendoManager = other.GetComponent<ManagerFlipendo>();
-            if (flipendoManager != null)
-            {
-                // Calculate the direction from the object to the player
-                Vector3 directionToPlayer = transform.position - other.transform.position;
-                directionToPlayer.Normalize();  // Normalize to get the direction only
-
-                // Determine which axis is the dominant one (X or Z) based on the player's position relative to the object
-                if (Mathf.Abs(directionToPlayer.x) > Mathf.Abs(directionToPlayer.z))
-                {
-                    // Player is to the left or right of the cube (dominant in X axis)
-                    if (directionToPlayer.x > 0)
-                    {
-                        // Player is to the right, push the object to the left
-                        flipendoManager.StartPush(other.gameObject, Vector3.left); // Push to the left (-X)
-                    }
-                    else
-                    {
-                        // Player is to the left, push the object to the right
-                        flipendoManager.StartPush(other.gameObject, Vector3.right); // Push to the right (+X)
-                    }
-                }
-                else
-                {
-                    // Player is in front or behind the cube (dominant in Z axis)
-                    if (directionToPlayer.z > 0)
-                    {
-                        // Player is in front, push the object backward
-                        flipendoManager.StartPush(other.gameObject, Vector3.back); // Push backward (-Z)
-                    }
-                    else
-                    {
-                        // Player is behind, push the object forward
-                        flipendoManager.StartPush(other.gameObject, Vector3.forward); // Push forward (+Z)
-                    }
-                }
-            }
-        } */
-
-
-
 
     }
 

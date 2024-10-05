@@ -23,7 +23,7 @@ public class ManagerSpongify : MonoBehaviour
     {
         if (other.CompareTag("Player") && enableJumping == true)
         {
-            PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();
+            PlayerMovement1 playerMovement = other.GetComponent<PlayerMovement1>();
 
             if (playerMovement != null && !playerMovement.isGrounded)
             {
