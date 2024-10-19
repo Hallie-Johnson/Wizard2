@@ -26,7 +26,7 @@ public class PlayerMovement1 : MonoBehaviour
 
     void Update()
     {
-        // Check if the left mouse button is held down
+        // Check if the left mouse button is held down for casting
         if (Input.GetMouseButton(0)) // 0 is for left mouse button
         {
             // Trigger casting animation
@@ -39,10 +39,12 @@ public class PlayerMovement1 : MonoBehaviour
         }
     }
 
+
     void FixedUpdate()
     {
         HandleMovement();
         HandleJump();
+        UpdateAnimations();
     }
 
     private void HandleMovement()
@@ -54,16 +56,10 @@ public class PlayerMovement1 : MonoBehaviour
         Vector3 targetMovement = (transform.forward * moveVertical + transform.right * moveHorizontal) * speed;
 
         // Smoothly interpolate to the target movement velocity
-        movementVelocity = Vector3.SmoothDamp(movementVelocity, targetMovement, ref smoothVelocity, 0.1f); // Adjust time as needed
+        movementVelocity = Vector3.SmoothDamp(movementVelocity, targetMovement, ref smoothVelocity, 0.1f);
 
         // Apply movement using Rigidbody's MovePosition
         rb.MovePosition(rb.position + movementVelocity * Time.fixedDeltaTime);
-
-        // Check if the player is moving
-        bool isMoving = ((moveVertical != 0 || moveHorizontal != 0) && !Input.GetMouseButton(0)); // Check if there is any input
-
-        // Update the animator based on movement
-        animator.SetBool("isWalking", isMoving); // Set isWalking based on movement input
     }
 
     private void HandleJump()
@@ -89,6 +85,30 @@ public class PlayerMovement1 : MonoBehaviour
             isGrounded = true;
             rb.velocity = Vector3.zero;
         }
+
+        if (collision.gameObject.CompareTag("Stairs"))
+        {
+            isGrounded = true;
+            speed = 7f;
+        } else
+        {
+            speed = 5f;
+        }
+    }
+
+    private void UpdateAnimations()
+    {
+        // Check if the player is moving (regardless of casting)
+        float moveVertical = Input.GetAxis("Vertical");
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        bool isMoving = (moveVertical != 0 || moveHorizontal != 0); // Only check movement here
+
+        // Update the animator for movement (isWalking)
+        animator.SetBool("isWalking", isMoving);
+
+        // Check for casting animation (already handled in Update, so no change needed here)
+        bool isCasting = animator.GetBool("isCasting");
+
     }
 
 }

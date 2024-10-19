@@ -10,7 +10,7 @@ public class PlayerMagic : MonoBehaviour
     public Transform spawnPoint;         // Reference to the specific mesh to spawn the sphere
     public float rayDistance = 100f;     // Max distance for raycasting
     public float travelSpeed = 5f;       // Speed at which the sphere travels
-    public float sphereHeightOffset = 2f; // Height offset for sphere spawn position
+    public float sphereHeightOffset = 0f; // Height offset for sphere spawn position
 
     private GameObject activeSphere = null; // Keeps track of the active sphere
     private bool isLookingAtSpell = false;   // Tracks if the player is looking at a target spell
