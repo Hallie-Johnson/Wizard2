@@ -72,7 +72,7 @@ public class ManagerFlipendo : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collided with object tagged: " + collision.gameObject.tag);
+        //Debug.Log("Collided with object tagged: " + collision.gameObject.tag);
         // Check if the object has the tag "Wall"
         if (isPushing && collision.gameObject.CompareTag("Wall"))
         {

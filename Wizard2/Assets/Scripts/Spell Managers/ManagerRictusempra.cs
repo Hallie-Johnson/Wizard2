@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
 public class ManagerRictusempra : MonoBehaviour
@@ -9,7 +8,6 @@ public class ManagerRictusempra : MonoBehaviour
     public Transform pointB;  // Second end point
     public Transform player;  // Reference to the player
     public Animator crabAnimator;  // Reference to the crab's Animator
-    private float detectionRange = 10f;  // Distance at which the crab sees the player
 
     private float moveSpeed = 1f;  // Speed at which the object moves
     private float rotationSpeed = 5f;  // Speed of rotation
@@ -17,6 +15,17 @@ public class ManagerRictusempra : MonoBehaviour
     private bool isTurning = false;
     private bool isStunned = false;
     private bool playerSeen = false;  // Boolean to track if the player is seen
+    private bool isShooting = false;  // Track if the crab is already shooting
+
+
+    public GameObject projectilePrefab;  // The sphere projectile prefab
+    public Transform firePoint;  // The point from where the crab shoots the projectile
+    public float shootForce = 10f;  // The base force for the projectile
+    public float detectionRange = 10f;  // Distance at which the crab sees the player
+    public float arcHeight = 10f;  // Height of the arc for the projectile
+    private float shootingInterval = 1.9f;  // Interval between shots in seconds
+
+
 
     void Start()
     {
@@ -25,7 +34,6 @@ public class ManagerRictusempra : MonoBehaviour
 
     void Update()
     {
-
         AnimatorStateInfo stateInfo = crabAnimator.GetCurrentAnimatorStateInfo(0);  // 0 is the layer index
         if (stateInfo.IsName("get_up") || stateInfo.IsName("stunned"))
         {
@@ -33,7 +41,15 @@ public class ManagerRictusempra : MonoBehaviour
             Vector3 newPosition = transform.position;
             newPosition.y = pointA.position.y - 0.5f;  // Set the y value to pointA's y position
             transform.position = newPosition;  // Apply the new position
-        } else
+
+            // If stunned, stop shooting and reset related flags
+            if (isShooting)
+            {
+                StopCoroutine(ShootAtIntervals());
+                isShooting = false;  // Ensure it stops shooting while stunned
+            }
+        }
+        else
         {
             Vector3 newPosition = transform.position;
             newPosition.y = pointA.position.y;  // Reset the y value to the original height
@@ -42,15 +58,24 @@ public class ManagerRictusempra : MonoBehaviour
             // Check the distance to the player
             CheckPlayerDistance();
 
-            if (!playerSeen && !isTurning)
+            if (!isStunned)  // Only continue actions if not stunned
             {
-                // Continue moving between points A and B
-                MoveTowardsTarget();
-            }
-            else if (playerSeen)
-            {
-                // Face the player
-                FacePlayer();
+                if (!playerSeen && !isTurning)
+                {
+                    // Continue moving between points A and B
+                    MoveTowardsTarget();
+                }
+                else if (playerSeen && !isShooting)  // Only start shooting if not already shooting and not stunned
+                {
+                    // Face the player
+                    FacePlayer();
+                    isShooting = true;  // Set the flag before starting the coroutine
+                    StartCoroutine(ShootAtIntervals());  // Only start once
+                }
+                else if (playerSeen)
+                {
+                    FacePlayer();
+                }
             }
         }
 
@@ -147,4 +172,37 @@ public class ManagerRictusempra : MonoBehaviour
         isStunned = true;
         StartCoroutine(WaitAndUnstun());
     }
+
+    System.Collections.IEnumerator ShootAtIntervals()
+    {
+        while (playerSeen && !isStunned)  // Ensure the crab doesn't shoot while stunned
+        {
+            ShootProjectileAtPlayer();
+            yield return new WaitForSeconds(shootingInterval);  // Wait for the interval before shooting again
+        }
+        isShooting = false;  // Reset the shooting flag when done
+    }
+
+    void ShootProjectileAtPlayer()
+    {
+        // Double-check if the crab is in a state where it can shoot
+        AnimatorStateInfo stateInfo = crabAnimator.GetCurrentAnimatorStateInfo(0);  // 0 is the layer index
+        if (stateInfo.IsName("get_up") || stateInfo.IsName("stunned"))
+        {
+            return;
+        }
+
+        // Spawn the projectile
+        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
+        Rigidbody rb = projectile.GetComponent<Rigidbody>();
+
+        // Calculate direction and force to create an arc
+        Vector3 direction = (player.position - firePoint.position).normalized;
+        Vector3 horizontalDirection = new Vector3(direction.x, 0, direction.z);
+
+        // Apply horizontal force and additional vertical force to create an arc
+        Vector3 force = horizontalDirection * shootForce + Vector3.up * arcHeight;
+        rb.AddForce(force, ForceMode.Impulse);
+    }
 }
+
