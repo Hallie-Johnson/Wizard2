@@ -83,7 +83,8 @@ public class ManagerRictusempra : MonoBehaviour
         {
             crabAnimator.SetBool("isStunned", true);
             moveSpeed = 0;
-            gameObject.tag = "Flipendo";
+            //gameObject.tag = "Flipendo";
+            gameObject.tag = "Untagged";
         }
         else
         {

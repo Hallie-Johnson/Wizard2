@@ -11,10 +11,10 @@ GameObject:
   - component: {fileID: 828514161108632123}
   - component: {fileID: 8486947864420567748}
   - component: {fileID: 2182680842183588417}
-  - component: {fileID: 2952174470484074171}
   - component: {fileID: 7614722406661253097}
   - component: {fileID: 6415705873637063900}
   - component: {fileID: 236836274307414521}
+  - component: {fileID: 992466779199567742}
   m_Layer: 0
   m_Name: RictusempraCrab
   m_TagString: Rictusempra
@@ -89,27 +89,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &2952174470484074171
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 932875465413267031}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Radius: 0.634115
-  m_Center: {x: 0, y: 0, z: 0.11588502}
 --- !u!114 &7614722406661253097
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -173,6 +152,29 @@ MonoBehaviour:
   shootForce: 10
   detectionRange: 10
   arcHeight: 10
+--- !u!136 &992466779199567742
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932875465413267031}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.35238552
+  m_Height: 1.216514
+  m_Direction: 2
+  m_Center: {x: 0, y: 0.048439324, z: -0.039950073}
 --- !u!1 &2326188729327480922
 GameObject:
   m_ObjectHideFlags: 0
