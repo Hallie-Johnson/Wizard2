@@ -13,7 +13,7 @@ public class ManagerRictusempra : MonoBehaviour
     private float rotationSpeed = 5f;  // Speed of rotation
     private Transform targetPoint;  // The current target end point
     private bool isTurning = false;
-    private bool isStunned = false;
+    public bool isStunned = false;
     private bool playerSeen = false;  // Boolean to track if the player is seen
     private bool isShooting = false;  // Track if the crab is already shooting
 
