@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3511108946172969561}
   - component: {fileID: 8990448865166129160}
   - component: {fileID: 8969860581489101232}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Skurge
   m_TagString: Skurge
   m_Icon: {fileID: 0}
