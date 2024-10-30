@@ -12,7 +12,7 @@ public class PlayerCamera : MonoBehaviour
     public float minDistance = 1f; // Minimum distance from player to prevent clipping
     public float minY = -30f, maxY = 60f; // Vertical camera rotation limits
     public float cameraSmoothTime = 0.1f; // Smoothing for camera movement
-    public float rotationSmoothTime = 0.1f; // Smoothing for player rotation
+    private float rotationSmoothTime = 0.0f; // Smoothing for player rotation
 
     private float currentX = 0f, currentY = 0f;
     private Vector3 cameraVelocity; // For smooth camera movement

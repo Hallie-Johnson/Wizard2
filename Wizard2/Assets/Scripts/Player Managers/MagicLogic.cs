@@ -46,6 +46,7 @@ public class MagicLogic : MonoBehaviour
         else if (other.CompareTag("Flipendo"))
         {
             ManagerFlipendo flipendoManager = other.GetComponent<ManagerFlipendo>();
+            ManagerFlipendoButton flipendoButtonManager = other.GetComponent<ManagerFlipendoButton>();
             if (flipendoManager != null)
             {
                 // Calculate the direction from the object to the player
@@ -113,6 +114,11 @@ public class MagicLogic : MonoBehaviour
                     // Wall detected in the push direction, do not push
                     Debug.Log("Wall detected in push direction. Push aborted.");
                 }
+            }
+
+            if (flipendoButtonManager != null)
+            {
+                flipendoButtonManager.RotateObjects();
             }
         } 
         else if (other.CompareTag("Lumos"))
