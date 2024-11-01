@@ -94,6 +94,16 @@ public class PlayerMovement1 : MonoBehaviour
         {
             speed = 5f;
         }
+
+        if (collision.gameObject.CompareTag("Skurge"))
+        {
+            isGrounded = false;
+            speed = 0.5f;
+        }
+        else
+        {
+            speed = 5f;
+        }
     }
 
     private void UpdateAnimations()
