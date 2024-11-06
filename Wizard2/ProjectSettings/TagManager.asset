@@ -15,6 +15,7 @@ TagManager:
   - Lumos
   - Wall
   - Stairs
+  - SpellSphere
   layers:
   - Default
   - TransparentFX

@@ -382,6 +382,7 @@
 "Assets/Scripts/Spell Managers/ManagerRictusempra.cs"
 "Assets/Scripts/Spell Managers/ManagerSkurge.cs"
 "Assets/Scripts/Spell Managers/ManagerSpongify.cs"
+"Assets/ThirdPersonMovement.cs"
 -langversion:9.0
 
 /deterministic
