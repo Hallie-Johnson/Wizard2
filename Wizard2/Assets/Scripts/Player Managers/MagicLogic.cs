@@ -47,6 +47,7 @@ public class MagicLogic : MonoBehaviour
         {
             ManagerFlipendo flipendoManager = other.GetComponent<ManagerFlipendo>();
             ManagerFlipendoButton flipendoButtonManager = other.GetComponent<ManagerFlipendoButton>();
+            C3StarPlatform c3StarPlatform = other.GetComponent<C3StarPlatform>();
             if (flipendoManager != null)
             {
                 // Calculate the direction from the object to the player
@@ -119,6 +120,11 @@ public class MagicLogic : MonoBehaviour
             if (flipendoButtonManager != null)
             {
                 flipendoButtonManager.RotateObjects();
+            }
+
+            if (c3StarPlatform != null)
+            {
+                c3StarPlatform.MoveCube();
             }
         } 
         else if (other.CompareTag("Lumos"))
