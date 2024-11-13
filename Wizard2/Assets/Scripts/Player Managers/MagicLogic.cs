@@ -40,7 +40,7 @@ public class MagicLogic : MonoBehaviour
             ManagerSpongify spongifyManager = other.GetComponent<ManagerSpongify>();
             if (spongifyManager != null)
             {
-                //spongifyManager.EnableJumping();
+                spongifyManager.EnableJumping();
             }
         }
         else if (other.CompareTag("Flipendo"))
