@@ -92,12 +92,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 571867426840886594}
-  - component: {fileID: 1287931371468871999}
-  - component: {fileID: 5268584513414294655}
+  - component: {fileID: 2480308471588005041}
   - component: {fileID: 804947989057781141}
   - component: {fileID: 4711711568981528050}
-  - component: {fileID: 521323492245963027}
   - component: {fileID: 1999170931381941318}
+  - component: {fileID: 1085719118660468153}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -123,33 +122,7 @@ Transform:
   - {fileID: 3791691625373179791}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &1287931371468871999
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31625656041149245}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Height: 1.88
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5268584513414294655
+--- !u!114 &2480308471588005041
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -161,14 +134,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cfa30d88c3a4c946af10f0f01549a95, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 1287931371468871999}
   cam: {fileID: 0}
-  speed: 6
-  jumpHeight: 2
-  gravity: -9.18
-  turnSmoothTime: 0.1
+  PlayerBody: {fileID: 1999170931381941318}
+  Speed: 3
+  Jumpforce: 5
   isGrounded: 0
+  turnSmoothTime: 0.1
   animator: {fileID: 8413762468333110229}
+  isLaunched: 0
 --- !u!114 &804947989057781141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,27 +181,6 @@ MonoBehaviour:
   lumosMaterial: {fileID: 2100000, guid: 6d178fd3f2c1bc343aa09c336072d7b4, type: 2}
   alohomoraMaterial: {fileID: 2100000, guid: 7013c477b081e354aa8ce32375ce2c88, type: 2}
   flipendoMaterial: {fileID: 2100000, guid: 318b3cbd3d1d4934faf3aa84413afee5, type: 2}
---- !u!65 &521323492245963027
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31625656041149245}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1.4768428, z: 0.7842079}
-  m_Center: {x: 0, y: -0.27042514, z: 0.024505585}
 --- !u!54 &1999170931381941318
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -252,10 +204,33 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 112
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
+--- !u!136 &1085719118660468153
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31625656041149245}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1.5848271
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.23250204, z: 0}
 --- !u!1 &271875173572584813
 GameObject:
   m_ObjectHideFlags: 0

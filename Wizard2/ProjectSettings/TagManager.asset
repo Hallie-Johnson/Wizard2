@@ -16,6 +16,7 @@ TagManager:
   - Wall
   - Stairs
   - SpellSphere
+  - SpongifyTarget
   layers:
   - Default
   - TransparentFX

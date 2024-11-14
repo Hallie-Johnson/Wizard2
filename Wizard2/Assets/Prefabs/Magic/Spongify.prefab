@@ -120,6 +120,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPlatform: {fileID: 0}
   launchTime: 1.5
-  gravityModifier: 2.5
+  gravityModifier: 1
   enableJumping: 0
-  player: {fileID: 0}

@@ -370,11 +370,12 @@
 "Assets/Scripts/Challenge Managers/C3StarPlatform.cs"
 "Assets/Scripts/Challenge Managers/Challenge1.cs"
 "Assets/Scripts/Old/PlayerMovement.cs"
+"Assets/Scripts/Old/PlayerMovement1.cs"
 "Assets/Scripts/Player Managers/MagicLogic.cs"
 "Assets/Scripts/Player Managers/PlayerCamera.cs"
 "Assets/Scripts/Player Managers/PlayerMagic.cs"
-"Assets/Scripts/Player Managers/PlayerMovement1.cs"
 "Assets/Scripts/Player Managers/SpawnSpellIcons.cs"
+"Assets/Scripts/Player Managers/ThirdPersonMovement.cs"
 "Assets/Scripts/Spell Managers/FireBall.cs"
 "Assets/Scripts/Spell Managers/ManagerDiffindo.cs"
 "Assets/Scripts/Spell Managers/ManagerFlipendo.cs"
@@ -384,7 +385,6 @@
 "Assets/Scripts/Spell Managers/ManagerRictusempra.cs"
 "Assets/Scripts/Spell Managers/ManagerSkurge.cs"
 "Assets/Scripts/Spell Managers/ManagerSpongify.cs"
-"Assets/ThirdPersonMovement.cs"
 -langversion:9.0
 
 /deterministic
