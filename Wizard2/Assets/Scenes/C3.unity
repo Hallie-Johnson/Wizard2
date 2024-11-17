@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 167335}
   m_Layer: 6
   m_Name: PolyShape (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 16609643}
   m_Layer: 6
   m_Name: PolyShape (177)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1363,7 +1363,7 @@ GameObject:
   - component: {fileID: 35918293}
   m_Layer: 6
   m_Name: PolyShape (242)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1829,7 +1829,7 @@ GameObject:
   - component: {fileID: 39641173}
   m_Layer: 6
   m_Name: PolyShape (191)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2031,7 +2031,7 @@ GameObject:
   - component: {fileID: 42992773}
   m_Layer: 6
   m_Name: PolyShape (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2707,7 +2707,7 @@ GameObject:
   - component: {fileID: 51183425}
   m_Layer: 6
   m_Name: PolyShape (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2914,7 +2914,7 @@ GameObject:
   - component: {fileID: 59956699}
   m_Layer: 6
   m_Name: PolyShape (72)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3771,7 +3771,7 @@ GameObject:
   - component: {fileID: 81870637}
   m_Layer: 6
   m_Name: PolyShape (208)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3973,7 +3973,7 @@ GameObject:
   - component: {fileID: 83964209}
   m_Layer: 6
   m_Name: PolyShape (255)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4484,7 +4484,7 @@ GameObject:
   - component: {fileID: 87097678}
   m_Layer: 6
   m_Name: PolyShape (241)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4830,7 +4830,7 @@ GameObject:
   - component: {fileID: 89599632}
   m_Layer: 6
   m_Name: PolyShape (54)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5027,7 +5027,7 @@ GameObject:
   - component: {fileID: 89679987}
   m_Layer: 6
   m_Name: PolyShape (86)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5224,7 +5224,7 @@ GameObject:
   - component: {fileID: 89776518}
   m_Layer: 6
   m_Name: PolyShape (234)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6178,7 +6178,7 @@ GameObject:
   - component: {fileID: 91176789}
   m_Layer: 6
   m_Name: PolyShape (193)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6380,7 +6380,7 @@ GameObject:
   - component: {fileID: 99893457}
   m_Layer: 6
   m_Name: PolyShape (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6577,7 +6577,7 @@ GameObject:
   - component: {fileID: 106851475}
   m_Layer: 6
   m_Name: PolyShape (167)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6779,7 +6779,7 @@ GameObject:
   - component: {fileID: 110487562}
   m_Layer: 6
   m_Name: PolyShape (199)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7311,7 +7311,7 @@ GameObject:
   - component: {fileID: 135371280}
   m_Layer: 6
   m_Name: PolyShape (258)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9055,7 +9055,7 @@ GameObject:
   - component: {fileID: 182664849}
   m_Layer: 6
   m_Name: PolyShape (137)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9491,7 +9491,7 @@ GameObject:
   - component: {fileID: 184526973}
   m_Layer: 6
   m_Name: PolyShape (100)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10075,7 +10075,7 @@ GameObject:
   - component: {fileID: 193872800}
   m_Layer: 6
   m_Name: PolyShape (215)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11081,7 +11081,7 @@ GameObject:
   - component: {fileID: 202045418}
   m_Layer: 6
   m_Name: PolyShape (232)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11807,7 +11807,7 @@ GameObject:
   - component: {fileID: 202376877}
   m_Layer: 6
   m_Name: PolyShape (233)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12533,7 +12533,7 @@ GameObject:
   - component: {fileID: 203191364}
   m_Layer: 6
   m_Name: PolyShape (129)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12900,7 +12900,7 @@ GameObject:
   - component: {fileID: 204021461}
   m_Layer: 6
   m_Name: PolyShape (259)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13246,7 +13246,7 @@ GameObject:
   - component: {fileID: 212814278}
   m_Layer: 6
   m_Name: PolyShape (117)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13448,7 +13448,7 @@ GameObject:
   - component: {fileID: 213520635}
   m_Layer: 6
   m_Name: PolyShape (194)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13650,7 +13650,7 @@ GameObject:
   - component: {fileID: 217183708}
   m_Layer: 6
   m_Name: PolyShape (145)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14017,7 +14017,7 @@ GameObject:
   - component: {fileID: 222641829}
   m_Layer: 6
   m_Name: PolyShape (110)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14219,7 +14219,7 @@ GameObject:
   - component: {fileID: 228322720}
   m_Layer: 6
   m_Name: PolyShape (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14416,7 +14416,7 @@ GameObject:
   - component: {fileID: 228805144}
   m_Layer: 6
   m_Name: PolyShape (153)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14948,7 +14948,7 @@ GameObject:
   - component: {fileID: 231822045}
   m_Layer: 6
   m_Name: PolyShape (74)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15475,7 +15475,7 @@ GameObject:
   - component: {fileID: 236030158}
   m_Layer: 6
   m_Name: PolyShape (115)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15746,7 +15746,7 @@ GameObject:
   - component: {fileID: 243187935}
   m_Layer: 6
   m_Name: PolyShape (257)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16965,7 +16965,7 @@ GameObject:
   - component: {fileID: 284257558}
   m_Layer: 0
   m_Name: PolyShape (248)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17437,7 +17437,7 @@ GameObject:
   - component: {fileID: 294483141}
   m_Layer: 6
   m_Name: PolyShape (146)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17639,7 +17639,7 @@ GameObject:
   - component: {fileID: 294651303}
   m_Layer: 6
   m_Name: PolyShape (265)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17986,7 +17986,7 @@ GameObject:
   - component: {fileID: 302208889}
   m_Layer: 6
   m_Name: PolyShape (59)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18183,7 +18183,7 @@ GameObject:
   - component: {fileID: 310898991}
   m_Layer: 6
   m_Name: PolyShape (171)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18385,7 +18385,7 @@ GameObject:
   - component: {fileID: 313994543}
   m_Layer: 6
   m_Name: PolyShape (201)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18587,7 +18587,7 @@ GameObject:
   - component: {fileID: 316624331}
   m_Layer: 6
   m_Name: PolyShape (118)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18789,7 +18789,7 @@ GameObject:
   - component: {fileID: 319767784}
   m_Layer: 6
   m_Name: PolyShape (60)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19692,7 +19692,7 @@ GameObject:
   - component: {fileID: 339585459}
   m_Layer: 6
   m_Name: PolyShape (197)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20224,7 +20224,7 @@ GameObject:
   - component: {fileID: 350445503}
   m_Layer: 6
   m_Name: PolyShape (93)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21411,7 +21411,7 @@ GameObject:
   - component: {fileID: 367771169}
   m_Layer: 6
   m_Name: PolyShape (44)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21608,7 +21608,7 @@ GameObject:
   - component: {fileID: 368918702}
   m_Layer: 6
   m_Name: PolyShape (185)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22044,7 +22044,7 @@ GameObject:
   - component: {fileID: 379646790}
   m_Layer: 6
   m_Name: PolyShape (48)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22241,7 +22241,7 @@ GameObject:
   - component: {fileID: 388489059}
   m_Layer: 0
   m_Name: PolyShape (262)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22953,7 +22953,7 @@ GameObject:
   - component: {fileID: 389799532}
   m_Layer: 6
   m_Name: PolyShape (92)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23150,7 +23150,7 @@ GameObject:
   - component: {fileID: 393369180}
   m_Layer: 6
   m_Name: PolyShape (78)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23347,7 +23347,7 @@ GameObject:
   - component: {fileID: 394999058}
   m_Layer: 6
   m_Name: PolyShape (246)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23921,7 +23921,7 @@ GameObject:
   - component: {fileID: 395563131}
   m_Layer: 6
   m_Name: PolyShape (130)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24288,7 +24288,7 @@ GameObject:
   - component: {fileID: 399159512}
   m_Layer: 6
   m_Name: PolyShape (109)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24490,7 +24490,7 @@ GameObject:
   - component: {fileID: 405510886}
   m_Layer: 6
   m_Name: PolyShape (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24687,7 +24687,7 @@ GameObject:
   - component: {fileID: 406329987}
   m_Layer: 6
   m_Name: PolyShape (205)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25048,31 +25048,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.6361997
+      value: 0.8178419
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.12885
+      value: 35.10098
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99466556
+      value: 0.992959
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.103153
+      value: -0.11845863
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000013263803
+      value: 0.000000016671702
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000013755388
+      value: 0.0000000019889106
       objectReference: {fileID: 0}
     - target: {fileID: 3264138520490753804, guid: f310439964bf3d7478f20c61439a56b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -25111,7 +25111,7 @@ GameObject:
   - component: {fileID: 421646915}
   m_Layer: 6
   m_Name: PolyShape (123)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25478,7 +25478,7 @@ GameObject:
   - component: {fileID: 436255291}
   m_Layer: 6
   m_Name: PolyShape (228)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25824,7 +25824,7 @@ GameObject:
   - component: {fileID: 441042930}
   m_Layer: 6
   m_Name: PolyShape (214)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26563,7 +26563,7 @@ GameObject:
   - component: {fileID: 448032435}
   m_Layer: 6
   m_Name: PolyShape (144)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27260,7 +27260,7 @@ GameObject:
   - component: {fileID: 460938314}
   m_Layer: 6
   m_Name: PolyShape (119)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27462,7 +27462,7 @@ GameObject:
   - component: {fileID: 462436228}
   m_Layer: 6
   m_Name: PolyShape (240)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27844,7 +27844,7 @@ GameObject:
   - component: {fileID: 471386391}
   m_Layer: 6
   m_Name: PolyShape (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28041,7 +28041,7 @@ GameObject:
   - component: {fileID: 473087612}
   m_Layer: 6
   m_Name: PolyShape (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28387,7 +28387,7 @@ GameObject:
   - component: {fileID: 482569404}
   m_Layer: 6
   m_Name: PolyShape (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28584,7 +28584,7 @@ GameObject:
   - component: {fileID: 486275459}
   m_Layer: 6
   m_Name: PolyShape (195)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28786,7 +28786,7 @@ GameObject:
   - component: {fileID: 487819416}
   m_Layer: 6
   m_Name: PolyShape (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29148,7 +29148,7 @@ GameObject:
   - component: {fileID: 492290313}
   m_Layer: 6
   m_Name: PolyShape (211)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29515,7 +29515,7 @@ GameObject:
   - component: {fileID: 503728090}
   m_Layer: 6
   m_Name: PolyShape (237)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30026,7 +30026,7 @@ GameObject:
   - component: {fileID: 506383416}
   m_Layer: 6
   m_Name: PolyShape (139)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30233,7 +30233,7 @@ GameObject:
   - component: {fileID: 513338684}
   m_Layer: 6
   m_Name: PolyShape (31)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30430,7 +30430,7 @@ GameObject:
   - component: {fileID: 515534476}
   m_Layer: 6
   m_Name: PolyShape (250)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30776,7 +30776,7 @@ GameObject:
   - component: {fileID: 516552783}
   m_Layer: 6
   m_Name: PolyShape (158)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30978,7 +30978,7 @@ GameObject:
   - component: {fileID: 521260234}
   m_Layer: 6
   m_Name: PolyShape (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31654,7 +31654,7 @@ GameObject:
   - component: {fileID: 526723587}
   m_Layer: 6
   m_Name: PolyShape (114)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32186,7 +32186,7 @@ GameObject:
   - component: {fileID: 533672442}
   m_Layer: 6
   m_Name: PolyShape (188)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32553,7 +32553,7 @@ GameObject:
   - component: {fileID: 540571153}
   m_Layer: 6
   m_Name: PolyShape (131)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32997,7 +32997,7 @@ GameObject:
   - component: {fileID: 549967289}
   m_Layer: 6
   m_Name: PolyShape (50)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33529,7 +33529,7 @@ GameObject:
   - component: {fileID: 558764023}
   m_Layer: 6
   m_Name: PolyShape (213)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34793,7 +34793,7 @@ GameObject:
   - component: {fileID: 568025013}
   m_Layer: 6
   m_Name: PolyShape (142)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34995,7 +34995,7 @@ GameObject:
   - component: {fileID: 571139953}
   m_Layer: 6
   m_Name: PolyShape (73)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35357,7 +35357,7 @@ GameObject:
   - component: {fileID: 579740988}
   m_Layer: 6
   m_Name: PolyShape (219)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35703,7 +35703,7 @@ GameObject:
   - component: {fileID: 580463332}
   m_Layer: 6
   m_Name: PolyShape (149)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36895,7 +36895,7 @@ GameObject:
   - component: {fileID: 601727859}
   m_Layer: 6
   m_Name: PolyShape (111)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37669,7 +37669,7 @@ GameObject:
   - component: {fileID: 620982692}
   m_Layer: 6
   m_Name: PolyShape (136)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37871,7 +37871,7 @@ GameObject:
   - component: {fileID: 627335518}
   m_Layer: 6
   m_Name: PolyShape (196)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38073,7 +38073,7 @@ GameObject:
   - component: {fileID: 629013461}
   m_Layer: 6
   m_Name: PolyShape (220)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39445,7 +39445,7 @@ GameObject:
   - component: {fileID: 647087056}
   m_Layer: 6
   m_Name: PolyShape (218)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39956,7 +39956,7 @@ GameObject:
   - component: {fileID: 648285049}
   m_Layer: 6
   m_Name: PolyShape (79)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40153,7 +40153,7 @@ GameObject:
   - component: {fileID: 649443208}
   m_Layer: 6
   m_Name: PolyShape (198)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40355,7 +40355,7 @@ GameObject:
   - component: {fileID: 651673996}
   m_Layer: 6
   m_Name: PolyShape (40)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40786,7 +40786,7 @@ GameObject:
   - component: {fileID: 658152042}
   m_Layer: 6
   m_Name: PolyShape (89)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40983,7 +40983,7 @@ GameObject:
   - component: {fileID: 658669830}
   m_Layer: 6
   m_Name: PolyShape (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41510,7 +41510,7 @@ GameObject:
   - component: {fileID: 661918878}
   m_Layer: 6
   m_Name: PolyShape (168)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41712,7 +41712,7 @@ GameObject:
   - component: {fileID: 664471664}
   m_Layer: 6
   m_Name: PolyShape (268)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42059,7 +42059,7 @@ GameObject:
   - component: {fileID: 666462745}
   m_Layer: 6
   m_Name: PolyShape (85)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42421,7 +42421,7 @@ GameObject:
   - component: {fileID: 673328941}
   m_Layer: 6
   m_Name: PolyShape (81)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42783,7 +42783,7 @@ GameObject:
   - component: {fileID: 687742440}
   m_Layer: 6
   m_Name: PolyShape (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43320,7 +43320,7 @@ GameObject:
   - component: {fileID: 696130158}
   m_Layer: 6
   m_Name: PolyShape (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44012,7 +44012,7 @@ GameObject:
   - component: {fileID: 714953824}
   m_Layer: 6
   m_Name: PolyShape (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44549,7 +44549,7 @@ GameObject:
   - component: {fileID: 722204888}
   m_Layer: 6
   m_Name: PolyShape (57)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44746,7 +44746,7 @@ GameObject:
   - component: {fileID: 724602674}
   m_Layer: 6
   m_Name: PolyShape (264)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45168,7 +45168,7 @@ GameObject:
   - component: {fileID: 727061162}
   m_Layer: 6
   m_Name: PolyShape (209)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45535,7 +45535,7 @@ GameObject:
   - component: {fileID: 730488844}
   m_Layer: 6
   m_Name: PolyShape (33)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46227,7 +46227,7 @@ GameObject:
   - component: {fileID: 741414307}
   m_Layer: 6
   m_Name: PolyShape (254)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -46573,7 +46573,7 @@ GameObject:
   - component: {fileID: 743581399}
   m_Layer: 6
   m_Name: PolyShape (90)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47631,7 +47631,7 @@ GameObject:
   - component: {fileID: 768288245}
   m_Layer: 6
   m_Name: PolyShape (165)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47833,7 +47833,7 @@ GameObject:
   - component: {fileID: 778053794}
   m_Layer: 6
   m_Name: PolyShape (105)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48030,7 +48030,7 @@ GameObject:
   - component: {fileID: 780047930}
   m_Layer: 6
   m_Name: PolyShape (252)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48541,7 +48541,7 @@ GameObject:
   - component: {fileID: 782173590}
   m_Layer: 6
   m_Name: PolyShape (227)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49192,7 +49192,7 @@ GameObject:
   - component: {fileID: 789092477}
   m_Layer: 6
   m_Name: PolyShape (64)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49554,7 +49554,7 @@ GameObject:
   - component: {fileID: 790026815}
   m_Layer: 6
   m_Name: PolyShape (69)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49916,7 +49916,7 @@ GameObject:
   - component: {fileID: 794586495}
   m_Layer: 6
   m_Name: PolyShape (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50113,7 +50113,7 @@ GameObject:
   - component: {fileID: 796569057}
   m_Layer: 6
   m_Name: PolyShape (176)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50299,6 +50299,67 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &797505260
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2869217490098668118, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bbc4c5d4a043ee846a66b7f6b24ceba0, type: 2}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -37
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3728586379910942659, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198256153133139404, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
+      propertyPath: m_Name
+      value: Card
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: bf7fdf7b9a7b886499d6cfa00a36612b, type: 3}
 --- !u!43 &800466609
 Mesh:
   m_ObjectHideFlags: 0
@@ -50490,7 +50551,7 @@ GameObject:
   - component: {fileID: 802424037}
   m_Layer: 6
   m_Name: PolyShape (207)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50692,7 +50753,7 @@ GameObject:
   - component: {fileID: 803614980}
   m_Layer: 6
   m_Name: PolyShape (67)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51453,9 +51514,10 @@ GameObject:
   - component: {fileID: 819639316}
   - component: {fileID: 819639315}
   - component: {fileID: 819639314}
+  - component: {fileID: 819639320}
   m_Layer: 6
   m_Name: StarPlatform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -51481,7 +51543,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1585580097}
+  m_Mesh: {fileID: 1624572005}
 --- !u!33 &819639315
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -51489,7 +51551,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 819639313}
-  m_Mesh: {fileID: 1585580097}
+  m_Mesh: {fileID: 1624572005}
 --- !u!23 &819639316
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -51916,7 +51978,7 @@ MonoBehaviour:
     m_AreaError: 15
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
-  m_Mesh: {fileID: 1585580097}
+  m_Mesh: {fileID: 1624572005}
   m_VersionIndex: 85
   m_IsSelectable: 1
   m_SelectedFaces: 
@@ -51937,6 +51999,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &819639320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819639313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6b327c1a526aa4a9011408f121f375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starObject: {fileID: 849461203}
+  heightAboveObject: 35
 --- !u!43 &825953944
 Mesh:
   m_ObjectHideFlags: 0
@@ -52102,6 +52178,63 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1001 &826528935
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927747876274106238, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4295239691714185160, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+      propertyPath: m_Name
+      value: Star
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
 --- !u!1 &834367747
 GameObject:
   m_ObjectHideFlags: 0
@@ -52118,7 +52251,7 @@ GameObject:
   - component: {fileID: 834367748}
   m_Layer: 6
   m_Name: PolyShape (229)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53197,7 +53330,7 @@ GameObject:
   - component: {fileID: 847536714}
   m_Layer: 6
   m_Name: PolyShape (157)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53383,6 +53516,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &849461203 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4295239691714185160, guid: 82567b22cb4ae6b41884ef555b151944, type: 3}
+  m_PrefabInstance: {fileID: 826528935}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &853787471
 GameObject:
   m_ObjectHideFlags: 0
@@ -53399,7 +53537,7 @@ GameObject:
   - component: {fileID: 853787472}
   m_Layer: 6
   m_Name: PolyShape (147)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -53766,7 +53904,7 @@ GameObject:
   - component: {fileID: 856756135}
   m_Layer: 6
   m_Name: PolyShape (63)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54458,7 +54596,7 @@ GameObject:
   - component: {fileID: 860841065}
   m_Layer: 6
   m_Name: PolyShape (162)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54660,7 +54798,7 @@ GameObject:
   - component: {fileID: 868658893}
   m_Layer: 6
   m_Name: PolyShape (182)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -54862,7 +55000,7 @@ GameObject:
   - component: {fileID: 869066125}
   m_Layer: 6
   m_Name: PolyShape (224)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55906,7 +56044,7 @@ GameObject:
   - component: {fileID: 874683433}
   m_Layer: 6
   m_Name: PolyShape
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56454,7 +56592,7 @@ GameObject:
   - component: {fileID: 884120210}
   m_Layer: 6
   m_Name: PolyShape (49)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56651,7 +56789,7 @@ GameObject:
   - component: {fileID: 885996284}
   m_Layer: 6
   m_Name: PolyShape (187)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -56853,7 +56991,7 @@ GameObject:
   - component: {fileID: 886273501}
   m_Layer: 6
   m_Name: PolyShape (174)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -58375,7 +58513,7 @@ GameObject:
   - component: {fileID: 936548279}
   m_Layer: 6
   m_Name: PolyShape (245)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59673,7 +59811,7 @@ GameObject:
   - component: {fileID: 966552189}
   m_Layer: 6
   m_Name: PolyShape (204)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59875,7 +60013,7 @@ GameObject:
   - component: {fileID: 973955290}
   m_Layer: 6
   m_Name: PolyShape (126)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60077,7 +60215,7 @@ GameObject:
   - component: {fileID: 976263912}
   m_Layer: 6
   m_Name: PolyShape (175)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60373,7 +60511,7 @@ GameObject:
   - component: {fileID: 1010225677}
   m_Layer: 6
   m_Name: PolyShape (189)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60639,7 +60777,7 @@ GameObject:
   - component: {fileID: 1015271935}
   m_Layer: 6
   m_Name: PolyShape (66)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61001,7 +61139,7 @@ GameObject:
   - component: {fileID: 1019491630}
   m_Layer: 6
   m_Name: PolyShape (200)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61203,7 +61341,7 @@ GameObject:
   - component: {fileID: 1022173251}
   m_Layer: 6
   m_Name: PolyShape (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61565,7 +61703,7 @@ GameObject:
   - component: {fileID: 1040564863}
   m_Layer: 6
   m_Name: PolyShape (77)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62092,7 +62230,7 @@ GameObject:
   - component: {fileID: 1045815657}
   m_Layer: 6
   m_Name: PolyShape (160)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62459,7 +62597,7 @@ GameObject:
   - component: {fileID: 1076166366}
   m_Layer: 6
   m_Name: PolyShape (183)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62661,7 +62799,7 @@ GameObject:
   - component: {fileID: 1076167773}
   m_Layer: 6
   m_Name: PolyShape (56)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62858,7 +62996,7 @@ GameObject:
   - component: {fileID: 1080939847}
   m_Layer: 6
   m_Name: PolyShape (104)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63055,7 +63193,7 @@ GameObject:
   - component: {fileID: 1093737390}
   m_Layer: 6
   m_Name: PolyShape (97)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63252,7 +63390,7 @@ GameObject:
   - component: {fileID: 1093839677}
   m_Layer: 6
   m_Name: PolyShape (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63449,7 +63587,7 @@ GameObject:
   - component: {fileID: 1097465110}
   m_Layer: 6
   m_Name: PolyShape (178)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63651,7 +63789,7 @@ GameObject:
   - component: {fileID: 1099626781}
   m_Layer: 6
   m_Name: PolyShape (231)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64238,7 +64376,7 @@ GameObject:
   - component: {fileID: 1103281060}
   m_Layer: 6
   m_Name: PolyShape (122)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -64440,7 +64578,7 @@ GameObject:
   - component: {fileID: 1105906034}
   m_Layer: 6
   m_Name: PolyShape (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65711,7 +65849,7 @@ GameObject:
   - component: {fileID: 1109680666}
   m_Layer: 6
   m_Name: PolyShape (235)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66222,7 +66360,7 @@ GameObject:
   - component: {fileID: 1123245936}
   m_Layer: 6
   m_Name: PolyShape (94)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66419,7 +66557,7 @@ GameObject:
   - component: {fileID: 1129835545}
   m_Layer: 6
   m_Name: PolyShape (128)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67297,7 +67435,7 @@ GameObject:
   - component: {fileID: 1160039795}
   m_Layer: 6
   m_Name: PolyShape (34)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67824,7 +67962,7 @@ GameObject:
   - component: {fileID: 1167623531}
   m_Layer: 6
   m_Name: PolyShape (150)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68191,7 +68329,7 @@ GameObject:
   - component: {fileID: 1173910467}
   m_Layer: 0
   m_Name: PolyShape (279)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69692,7 +69830,7 @@ GameObject:
   - component: {fileID: 1200055256}
   m_Layer: 6
   m_Name: PolyShape (83)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69889,7 +70027,7 @@ GameObject:
   - component: {fileID: 1203714293}
   m_Layer: 6
   m_Name: PolyShape (75)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70317,7 +70455,7 @@ GameObject:
   - component: {fileID: 1216334792}
   m_Layer: 6
   m_Name: PolyShape (46)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70844,7 +70982,7 @@ GameObject:
   - component: {fileID: 1229501472}
   m_Layer: 6
   m_Name: PolyShape (55)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71536,7 +71674,7 @@ GameObject:
   - component: {fileID: 1245802145}
   m_Layer: 6
   m_Name: PolyShape (155)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72068,7 +72206,7 @@ GameObject:
   - component: {fileID: 1253195857}
   m_Layer: 6
   m_Name: PolyShape (133)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72270,7 +72408,7 @@ GameObject:
   - component: {fileID: 1266971972}
   m_Layer: 6
   m_Name: PolyShape (76)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73085,7 +73223,7 @@ GameObject:
   - component: {fileID: 1274469848}
   m_Layer: 6
   m_Name: PolyShape (190)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73287,7 +73425,7 @@ GameObject:
   - component: {fileID: 1274859795}
   m_Layer: 6
   m_Name: PolyShape (192)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74314,7 +74452,7 @@ GameObject:
   - component: {fileID: 1293892795}
   m_Layer: 6
   m_Name: PolyShape (202)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74846,7 +74984,7 @@ GameObject:
   - component: {fileID: 1294509116}
   m_Layer: 6
   m_Name: PolyShape (251)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -75192,7 +75330,7 @@ GameObject:
   - component: {fileID: 1294565645}
   m_Layer: 6
   m_Name: PolyShape (223)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -76465,7 +76603,7 @@ GameObject:
   - component: {fileID: 1312956890}
   m_Layer: 6
   m_Name: PolyShape (260)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77306,7 +77444,7 @@ GameObject:
   - component: {fileID: 1322047029}
   m_Layer: 6
   m_Name: PolyShape (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -77668,7 +77806,7 @@ GameObject:
   - component: {fileID: 1331530191}
   m_Layer: 6
   m_Name: PolyShape (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78052,19 +78190,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9990347
+      value: 0.99665767
       objectReference: {fileID: 0}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.04392826
+      value: -0.081691764
       objectReference: {fileID: 0}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1.611168e-22
+      value: -0.000000021500025
       objectReference: {fileID: 0}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 2.0799452e-24
+      value: -0.0000000017622651
       objectReference: {fileID: 0}
     - target: {fileID: 2366229297323187802, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalPosition.y
@@ -78072,23 +78210,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2366229297323187802, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9808833
+      value: 0.9798744
       objectReference: {fileID: 0}
     - target: {fileID: 2366229297323187802, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.19459689
+      value: -0.19961527
       objectReference: {fileID: 0}
     - target: {fileID: 2366229297323187802, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.00000001687727
+      value: -0.00000001884577
       objectReference: {fileID: 0}
     - target: {fileID: 2366229297323187802, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000003348272
+      value: -0.0000000038391694
       objectReference: {fileID: 0}
     - target: {fileID: 4941317688239859725, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4941317688239859725, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalPosition.y
@@ -78096,7 +78234,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4941317688239859725, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.12885
+      value: 33.87115
       objectReference: {fileID: 0}
     - target: {fileID: 4941317688239859725, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.w
@@ -78132,19 +78270,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9980704
+      value: 0.99665767
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.06209292
+      value: -0.081691764
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.0000000021467066
+      value: 0.000000017148794
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -1.3355299e-10
+      value: 0.0000000014056136
       objectReference: {fileID: 0}
     - target: {fileID: 7662490183762182570, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_Name
@@ -78171,7 +78309,7 @@ GameObject:
   - component: {fileID: 1348043081}
   m_Layer: 6
   m_Name: PolyShape (120)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78607,7 +78745,7 @@ GameObject:
   - component: {fileID: 1366021680}
   m_Layer: 6
   m_Name: PolyShape (38)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79402,7 +79540,7 @@ GameObject:
   - component: {fileID: 1382923470}
   m_Layer: 6
   m_Name: PolyShape (65)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79599,7 +79737,7 @@ GameObject:
   - component: {fileID: 1386934923}
   m_Layer: 6
   m_Name: PolyShape (221)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80110,7 +80248,7 @@ GameObject:
   - component: {fileID: 1396357730}
   m_Layer: 6
   m_Name: PolyShape (261)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -80786,7 +80924,7 @@ GameObject:
   - component: {fileID: 1404605653}
   m_Layer: 6
   m_Name: PolyShape (203)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -81935,7 +82073,7 @@ GameObject:
   - component: {fileID: 1421477325}
   m_Layer: 6
   m_Name: PolyShape (96)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82684,7 +82822,7 @@ GameObject:
   - component: {fileID: 1430885144}
   m_Layer: 6
   m_Name: PolyShape (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83438,7 +83576,7 @@ GameObject:
   - component: {fileID: 1450682690}
   m_Layer: 6
   m_Name: PolyShape (154)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -83805,7 +83943,7 @@ GameObject:
   - component: {fileID: 1454635607}
   m_Layer: 6
   m_Name: PolyShape (32)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84002,7 +84140,7 @@ GameObject:
   - component: {fileID: 1458673172}
   m_Layer: 6
   m_Name: PolyShape (253)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -84513,7 +84651,7 @@ GameObject:
   - component: {fileID: 1467777584}
   m_Layer: 6
   m_Name: PolyShape (238)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85556,7 +85694,7 @@ GameObject:
   - component: {fileID: 1482629081}
   m_Layer: 6
   m_Name: PolyShape (239)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86067,7 +86205,7 @@ GameObject:
   - component: {fileID: 1489323346}
   m_Layer: 6
   m_Name: PolyShape (166)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86269,7 +86407,7 @@ GameObject:
   - component: {fileID: 1489568309}
   m_Layer: 6
   m_Name: PolyShape (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86796,7 +86934,7 @@ GameObject:
   - component: {fileID: 1499506105}
   m_Layer: 6
   m_Name: PolyShape (156)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86998,7 +87136,7 @@ GameObject:
   - component: {fileID: 1500642275}
   m_Layer: 6
   m_Name: PolyShape (53)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -87360,7 +87498,7 @@ GameObject:
   - component: {fileID: 1507117183}
   m_Layer: 6
   m_Name: PolyShape (225)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88201,7 +88339,7 @@ GameObject:
   - component: {fileID: 1520863915}
   m_Layer: 6
   m_Name: PolyShape (143)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -88790,7 +88928,7 @@ GameObject:
   - component: {fileID: 1530420208}
   m_Layer: 6
   m_Name: PolyShape (125)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89817,7 +89955,7 @@ GameObject:
   - component: {fileID: 1541117387}
   m_Layer: 6
   m_Name: PolyShape (45)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90014,7 +90152,7 @@ GameObject:
   - component: {fileID: 1546318323}
   m_Layer: 6
   m_Name: PolyShape (36)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90541,7 +90679,7 @@ GameObject:
   - component: {fileID: 1553897228}
   m_Layer: 6
   m_Name: PolyShape (108)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91403,7 +91541,7 @@ GameObject:
   - component: {fileID: 1583183165}
   m_Layer: 6
   m_Name: PolyShape (169)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91589,171 +91727,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &1585580097
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-269876(Clone)(Clone)
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 84
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 48
-    localAABB:
-      m_Center: {x: 2, y: 15, z: 5}
-      m_Extent: {x: 5, y: 15, z: 5}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 0000070006000300050004000300020001000300010005000100000005000500000006000a0008000c000c0008000f000c000f000b000f000e000b000d000c000b000a0009000800100011001200110013001200140015001600150017001600180019001a0019001b001a001c001d001e001d001f001e00200021002200210023002200240025002600250027002600280029002a0029002b002a002c002d002e002d002f002e00
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 48
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 4
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 40
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 2304
-    _typelessdata: 000000000000f04100000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000080400000f04100000000000000000000803f000000000000803f0000000000000000000080bf00008040000000000000e0400000f04100004040000000000000803f000000000000803f0000000000000000000080bf0000e040000040400000e0400000f0410000e040000000000000803f000000000000803f0000000000000000000080bf0000e0400000e040000080400000f04100002041000000000000803f000000000000803f0000000000000000000080bf0000804000002041000000000000f04100002041000000000000803f000000000000803f0000000000000000000080bf0000000000002041000040c00000f0410000e040000000000000803f000000000000803f0000000000000000000080bf000040c00000e040000040c00000f04100004040000000000000803f000000000000803f0000000000000000000080bf000040c00000404000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000000000000000000040c0000000000000404000000000000080bf00000000000080bf0000000000000000000080bf0000404000004040000040c0000000000000e04000000000000080bf00000000000080bf0000000000000000000080bf000040400000e0400000e040000000000000e04000000000000080bf00000000000080bf0000000000000000000080bf0000e0c00000e04000000000000000000000204100000000000080bf00000000000080bf0000000000000000000080bf000000000000204100008040000000000000204100000000000080bf00000000000080bf0000000000000000000080bf000080c0000020410000e040000000000000404000000000000080bf00000000000080bf0000000000000000000080bf0000e0c00000404000008040000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000080c000000000000000000000000000000000f30435bf00000000f30435bff404353f00000000f40435bf000080bf0000000000000000000040c00000000000004040f30435bf00000000f30435bff404353f00000000f40435bf000080bfb6c387c000000000000000000000f04100000000f30435bf00000000f30435bff404353f00000000f40435bf000080bf000000000000f041000040c00000f04100004040f30435bf00000000f30435bff404353f00000000f40435bf000080bfb6c387c00000f041000040c00000000000004040000080bf00000000000000000000000000000000000080bf000080bf000040c000000000000040c0000000000000e040000080bf00000000000000000000000000000000000080bf000080bf0000e0c000000000000040c00000f04100004040000080bf00000000000000000000000000000000000080bf000080bf000040c00000f041000040c00000f0410000e040000080bf00000000000000000000000000000000000080bf000080bf0000e0c00000f04100000000000000000000204100000000000000000000803f000080bf0000000000000000000080bf000000000000000000008040000000000000204100000000000000000000803f000080bf0000000000000000000080bf000080c000000000000000000000f0410000204100000000000000000000803f000080bf0000000000000000000080bf000000000000f041000080400000f0410000204100000000000000000000803f000080bf0000000000000000000080bf000080c00000f041000080400000000000002041f304353f00000000f304353ff40435bf00000000f404353f000080bfb6c38740000000000000e040000000000000e040f304353f00000000f304353ff40435bf00000000f404353f000080bf0000000000000000000080400000f04100002041f304353f00000000f304353ff40435bf00000000f404353f000080bfb6c387400000f0410000e0400000f0410000e040f304353f00000000f304353ff40435bf00000000f404353f000080bf000000000000f0410000e040000000000000e0400000803f000000000000000000000000000000000000803f000080bf0000e040000000000000e04000000000000040400000803f000000000000000000000000000000000000803f000080bf00004040000000000000e0400000f0410000e0400000803f000000000000000000000000000000000000803f000080bf0000e0400000f0410000e0400000f041000040400000803f000000000000000000000000000000000000803f000080bf000040400000f0410000e0400000000000004040f304353f00000000f30435bff404353f00000000f404353f000080bf3046e24000000000000080400000000000000000f304353f00000000f30435bff404353f00000000f404353f000080bff3043540000000000000e0400000f04100004040f304353f00000000f30435bff404353f00000000f404353f000080bf3046e2400000f041000080400000f04100000000f304353f00000000f30435bff404353f00000000f404353f000080bff30435400000f0410000804000000000000000000000000000000000000080bf0000803f0000000000000000000080bf00008040000000000000000000000000000000000000000000000000000080bf0000803f0000000000000000000080bf0000000000000000000080400000f041000000000000000000000000000080bf0000803f0000000000000000000080bf000080400000f041000000000000f041000000000000000000000000000080bf0000803f0000000000000000000080bf000000000000f041000040c0000000000000e040f30435bf00000000f304353ff40435bf00000000f40435bf000080bff30435c000000000000000000000000000002041f30435bf00000000f304353ff40435bf00000000f40435bf000080bf3046e2c000000000000040c00000f0410000e040f30435bf00000000f304353ff40435bf00000000f40435bf000080bff30435c00000f041000000000000f04100002041f30435bf00000000f304353ff40435bf00000000f40435bf000080bf3046e2c00000f041
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 2, y: 15, z: 5}
-    m_Extent: {x: 5, y: 15, z: 5}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1.0000001
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1588730127
 GameObject:
   m_ObjectHideFlags: 0
@@ -91770,7 +91743,7 @@ GameObject:
   - component: {fileID: 1588730128}
   m_Layer: 6
   m_Name: PolyShape (37)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91967,7 +91940,7 @@ GameObject:
   - component: {fileID: 1592285311}
   m_Layer: 6
   m_Name: PolyShape (161)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92169,7 +92142,7 @@ GameObject:
   - component: {fileID: 1594595828}
   m_Layer: 6
   m_Name: PolyShape (39)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92366,7 +92339,7 @@ GameObject:
   - component: {fileID: 1602538512}
   m_Layer: 6
   m_Name: PolyShape (180)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92733,7 +92706,7 @@ GameObject:
   - component: {fileID: 1611641279}
   m_Layer: 6
   m_Name: PolyShape (62)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -92914,6 +92887,171 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1624572005
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: pb_Mesh-269876(Clone)(Clone)(Clone)
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 84
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 48
+    localAABB:
+      m_Center: {x: 2, y: 15, z: 5}
+      m_Extent: {x: 5, y: 15, z: 5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 0000070006000300050004000300020001000300010005000100000005000500000006000a0008000c000c0008000f000c000f000b000f000e000b000d000c000b000a0009000800100011001200110013001200140015001600150017001600180019001a0019001b001a001c001d001e001d001f001e00200021002200210023002200240025002600250027002600280029002a0029002b002a002c002d002e002d002f002e00
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 48
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 4
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 40
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 2304
+    _typelessdata: 000000000000f04100000000000000000000803f000000000000803f0000000000000000000080bf0000000000000000000080400000f04100000000000000000000803f000000000000803f0000000000000000000080bf00008040000000000000e0400000f04100004040000000000000803f000000000000803f0000000000000000000080bf0000e040000040400000e0400000f0410000e040000000000000803f000000000000803f0000000000000000000080bf0000e0400000e040000080400000f04100002041000000000000803f000000000000803f0000000000000000000080bf0000804000002041000000000000f04100002041000000000000803f000000000000803f0000000000000000000080bf0000000000002041000040c00000f0410000e040000000000000803f000000000000803f0000000000000000000080bf000040c00000e040000040c00000f04100004040000000000000803f000000000000803f0000000000000000000080bf000040c00000404000000000000000000000000000000000000080bf00000000000080bf0000000000000000000080bf0000000000000000000040c0000000000000404000000000000080bf00000000000080bf0000000000000000000080bf0000404000004040000040c0000000000000e04000000000000080bf00000000000080bf0000000000000000000080bf000040400000e0400000e040000000000000e04000000000000080bf00000000000080bf0000000000000000000080bf0000e0c00000e04000000000000000000000204100000000000080bf00000000000080bf0000000000000000000080bf000000000000204100008040000000000000204100000000000080bf00000000000080bf0000000000000000000080bf000080c0000020410000e040000000000000404000000000000080bf00000000000080bf0000000000000000000080bf0000e0c00000404000008040000000000000000000000000000080bf00000000000080bf0000000000000000000080bf000080c000000000000000000000000000000000f30435bf00000000f30435bff404353f00000000f40435bf000080bf0000000000000000000040c00000000000004040f30435bf00000000f30435bff404353f00000000f40435bf000080bfb6c387c000000000000000000000f04100000000f30435bf00000000f30435bff404353f00000000f40435bf000080bf000000000000f041000040c00000f04100004040f30435bf00000000f30435bff404353f00000000f40435bf000080bfb6c387c00000f041000040c00000000000004040000080bf00000000000000000000000000000000000080bf000080bf000040c000000000000040c0000000000000e040000080bf00000000000000000000000000000000000080bf000080bf0000e0c000000000000040c00000f04100004040000080bf00000000000000000000000000000000000080bf000080bf000040c00000f041000040c00000f0410000e040000080bf00000000000000000000000000000000000080bf000080bf0000e0c00000f04100000000000000000000204100000000000000000000803f000080bf0000000000000000000080bf000000000000000000008040000000000000204100000000000000000000803f000080bf0000000000000000000080bf000080c000000000000000000000f0410000204100000000000000000000803f000080bf0000000000000000000080bf000000000000f041000080400000f0410000204100000000000000000000803f000080bf0000000000000000000080bf000080c00000f041000080400000000000002041f304353f00000000f304353ff40435bf00000000f404353f000080bfb6c38740000000000000e040000000000000e040f304353f00000000f304353ff40435bf00000000f404353f000080bf0000000000000000000080400000f04100002041f304353f00000000f304353ff40435bf00000000f404353f000080bfb6c387400000f0410000e0400000f0410000e040f304353f00000000f304353ff40435bf00000000f404353f000080bf000000000000f0410000e040000000000000e0400000803f000000000000000000000000000000000000803f000080bf0000e040000000000000e04000000000000040400000803f000000000000000000000000000000000000803f000080bf00004040000000000000e0400000f0410000e0400000803f000000000000000000000000000000000000803f000080bf0000e0400000f0410000e0400000f041000040400000803f000000000000000000000000000000000000803f000080bf000040400000f0410000e0400000000000004040f304353f00000000f30435bff404353f00000000f404353f000080bf3046e24000000000000080400000000000000000f304353f00000000f30435bff404353f00000000f404353f000080bff3043540000000000000e0400000f04100004040f304353f00000000f30435bff404353f00000000f404353f000080bf3046e2400000f041000080400000f04100000000f304353f00000000f30435bff404353f00000000f404353f000080bff30435400000f0410000804000000000000000000000000000000000000080bf0000803f0000000000000000000080bf00008040000000000000000000000000000000000000000000000000000080bf0000803f0000000000000000000080bf0000000000000000000080400000f041000000000000000000000000000080bf0000803f0000000000000000000080bf000080400000f041000000000000f041000000000000000000000000000080bf0000803f0000000000000000000080bf000000000000f041000040c0000000000000e040f30435bf00000000f304353ff40435bf00000000f40435bf000080bff30435c000000000000000000000000000002041f30435bf00000000f304353ff40435bf00000000f40435bf000080bf3046e2c000000000000040c00000f0410000e040f30435bf00000000f304353ff40435bf00000000f40435bf000080bff30435c00000f041000000000000f04100002041f30435bf00000000f304353ff40435bf00000000f40435bf000080bf3046e2c00000f041
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 2, y: 15, z: 5}
+    m_Extent: {x: 5, y: 15, z: 5}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1.0000001
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1001 &1626818294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92992,7 +93130,7 @@ GameObject:
   - component: {fileID: 1635133543}
   m_Layer: 6
   m_Name: PolyShape (43)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93189,7 +93327,7 @@ GameObject:
   - component: {fileID: 1638036712}
   m_Layer: 6
   m_Name: PolyShape (35)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93716,7 +93854,7 @@ GameObject:
   - component: {fileID: 1651169945}
   m_Layer: 6
   m_Name: PolyShape (148)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -93918,7 +94056,7 @@ GameObject:
   - component: {fileID: 1651554626}
   m_Layer: 6
   m_Name: PolyShape (206)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95187,7 +95325,7 @@ GameObject:
   - component: {fileID: 1685337628}
   m_Layer: 6
   m_Name: PolyShape (172)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95554,7 +95692,7 @@ GameObject:
   - component: {fileID: 1692564841}
   m_Layer: 6
   m_Name: PolyShape (243)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95900,7 +96038,7 @@ GameObject:
   - component: {fileID: 1693117574}
   m_Layer: 6
   m_Name: PolyShape (88)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96097,7 +96235,7 @@ GameObject:
   - component: {fileID: 1693910490}
   m_Layer: 6
   m_Name: PolyShape (277)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96443,7 +96581,7 @@ GameObject:
   - component: {fileID: 1699682165}
   m_Layer: 6
   m_Name: PolyShape (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96990,7 +97128,7 @@ GameObject:
   - component: {fileID: 1712254217}
   m_Layer: 6
   m_Name: PolyShape (140)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -97375,7 +97513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 571867426840886594, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 571867426840886594, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -97383,7 +97521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 571867426840886594, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 571867426840886594, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -97433,6 +97571,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2480308471588005041, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
+      propertyPath: cam
+      value: 
+      objectReference: {fileID: 53798629}
     - target: {fileID: 2566522518163215848, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: m_Layer
       value: 0
@@ -98290,7 +98432,7 @@ GameObject:
   - component: {fileID: 1732464055}
   m_Layer: 6
   m_Name: PolyShape (51)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98487,7 +98629,7 @@ GameObject:
   - component: {fileID: 1734991648}
   m_Layer: 6
   m_Name: PolyShape (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98753,7 +98895,7 @@ GameObject:
   - component: {fileID: 1739338546}
   m_Layer: 6
   m_Name: PolyShape (179)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99120,7 +99262,7 @@ GameObject:
   - component: {fileID: 1741612178}
   m_Layer: 0
   m_Name: PolyShape (275)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99832,7 +99974,7 @@ GameObject:
   - component: {fileID: 1747129950}
   m_Layer: 6
   m_Name: PolyShape (141)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100199,7 +100341,7 @@ GameObject:
   - component: {fileID: 1755692751}
   m_Layer: 6
   m_Name: PolyShape (103)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100396,7 +100538,7 @@ GameObject:
   - component: {fileID: 1756400683}
   m_Layer: 6
   m_Name: PolyShape (222)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101224,7 +101366,7 @@ GameObject:
   - component: {fileID: 1765862498}
   m_Layer: 6
   m_Name: PolyShape (236)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101887,7 +102029,7 @@ GameObject:
   - component: {fileID: 1770389294}
   m_Layer: 6
   m_Name: PolyShape (106)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102146,7 +102288,7 @@ GameObject:
   - component: {fileID: 1775999805}
   m_Layer: 6
   m_Name: PolyShape (42)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103003,7 +103145,7 @@ GameObject:
   - component: {fileID: 1809752951}
   m_Layer: 6
   m_Name: PolyShape (212)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104224,7 +104366,7 @@ GameObject:
   - component: {fileID: 1822049881}
   m_Layer: 6
   m_Name: PolyShape (116)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104591,7 +104733,7 @@ GameObject:
   - component: {fileID: 1825324141}
   m_Layer: 6
   m_Name: PolyShape (170)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105453,7 +105595,7 @@ GameObject:
   - component: {fileID: 1840487899}
   m_Layer: 6
   m_Name: PolyShape (101)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105815,7 +105957,7 @@ GameObject:
   - component: {fileID: 1842466057}
   m_Layer: 6
   m_Name: PolyShape (98)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106012,7 +106154,7 @@ GameObject:
   - component: {fileID: 1845788991}
   m_Layer: 6
   m_Name: PolyShape (159)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106379,7 +106521,7 @@ GameObject:
   - component: {fileID: 1855500451}
   m_Layer: 6
   m_Name: PolyShape (121)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106581,7 +106723,7 @@ GameObject:
   - component: {fileID: 1855572411}
   m_Layer: 6
   m_Name: PolyShape (181)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107113,7 +107255,7 @@ GameObject:
   - component: {fileID: 1857932285}
   m_Layer: 6
   m_Name: PolyShape (163)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107315,7 +107457,7 @@ GameObject:
   - component: {fileID: 1859603947}
   m_Layer: 6
   m_Name: PolyShape (82)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108007,7 +108149,7 @@ GameObject:
   - component: {fileID: 1884508023}
   m_Layer: 6
   m_Name: PolyShape (80)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108369,7 +108511,7 @@ GameObject:
   - component: {fileID: 1887126832}
   m_Layer: 6
   m_Name: PolyShape (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108566,7 +108708,7 @@ GameObject:
   - component: {fileID: 1888021170}
   m_Layer: 6
   m_Name: PolyShape (95)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -108928,7 +109070,7 @@ GameObject:
   - component: {fileID: 1900206276}
   m_Layer: 6
   m_Name: PolyShape (68)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109125,7 +109267,7 @@ GameObject:
   - component: {fileID: 1904249295}
   m_Layer: 6
   m_Name: PolyShape (278)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109651,7 +109793,7 @@ GameObject:
   - component: {fileID: 1911480875}
   m_Layer: 6
   m_Name: PolyShape (58)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110013,7 +110155,7 @@ GameObject:
   - component: {fileID: 1920497817}
   m_Layer: 6
   m_Name: PolyShape (266)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110360,7 +110502,7 @@ GameObject:
   - component: {fileID: 1927611030}
   m_Layer: 6
   m_Name: Rope Door
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110706,7 +110848,7 @@ GameObject:
   - component: {fileID: 1927711773}
   m_Layer: 6
   m_Name: PolyShape (52)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110903,7 +111045,7 @@ GameObject:
   - component: {fileID: 1927917838}
   m_Layer: 6
   m_Name: PolyShape (186)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111105,7 +111247,7 @@ GameObject:
   - component: {fileID: 1929045298}
   m_Layer: 6
   m_Name: PolyShape (113)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111307,7 +111449,7 @@ GameObject:
   - component: {fileID: 1929343261}
   m_Layer: 6
   m_Name: PolyShape (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111746,7 +111888,7 @@ GameObject:
   - component: {fileID: 1942437303}
   m_Layer: 6
   m_Name: PolyShape (132)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112113,7 +112255,7 @@ GameObject:
   - component: {fileID: 1946265325}
   m_Layer: 6
   m_Name: PolyShape (164)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112315,7 +112457,7 @@ GameObject:
   - component: {fileID: 1951117750}
   m_Layer: 6
   m_Name: PolyShape (151)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112682,7 +112824,7 @@ GameObject:
   - component: {fileID: 1954861491}
   m_Layer: 6
   m_Name: PolyShape (138)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -112884,7 +113026,7 @@ GameObject:
   - component: {fileID: 1959594255}
   m_Layer: 6
   m_Name: PolyShape (135)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113086,7 +113228,7 @@ GameObject:
   - component: {fileID: 1960555899}
   m_Layer: 6
   m_Name: PolyShape (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113283,7 +113425,7 @@ GameObject:
   - component: {fileID: 1961763620}
   m_Layer: 6
   m_Name: PolyShape (173)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113485,7 +113627,7 @@ GameObject:
   - component: {fileID: 1970196475}
   m_Layer: 6
   m_Name: PolyShape (91)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113682,7 +113824,7 @@ GameObject:
   - component: {fileID: 1975720357}
   m_Layer: 6
   m_Name: PolyShape (47)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -113879,7 +114021,7 @@ GameObject:
   - component: {fileID: 1977108512}
   m_Layer: 6
   m_Name: PolyShape (210)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114477,7 +114619,7 @@ GameObject:
   - component: {fileID: 1996962651}
   m_Layer: 6
   m_Name: PolyShape (230)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114823,7 +114965,7 @@ GameObject:
   - component: {fileID: 2000202615}
   m_Layer: 6
   m_Name: PolyShape (87)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115185,7 +115327,7 @@ GameObject:
   - component: {fileID: 2005993651}
   m_Layer: 6
   m_Name: PolyShape (267)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115697,7 +115839,7 @@ GameObject:
   - component: {fileID: 2016826394}
   m_Layer: 6
   m_Name: PolyShape (184)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116064,7 +116206,7 @@ GameObject:
   - component: {fileID: 2019015129}
   m_Layer: 6
   m_Name: PolyShape (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116410,7 +116552,7 @@ GameObject:
   - component: {fileID: 2025344758}
   m_Layer: 6
   m_Name: PolyShape (70)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116607,7 +116749,7 @@ GameObject:
   - component: {fileID: 2027358563}
   m_Layer: 6
   m_Name: PolyShape (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116804,7 +116946,7 @@ GameObject:
   - component: {fileID: 2027382501}
   m_Layer: 6
   m_Name: PolyShape (71)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117001,7 +117143,7 @@ GameObject:
   - component: {fileID: 2034518716}
   m_Layer: 6
   m_Name: PolyShape (256)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -117512,7 +117654,7 @@ GameObject:
   - component: {fileID: 2042284688}
   m_Layer: 6
   m_Name: PolyShape (226)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118010,7 +118152,7 @@ GameObject:
   - component: {fileID: 2044011431}
   m_Layer: 6
   m_Name: PolyShape (102)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118207,7 +118349,7 @@ GameObject:
   - component: {fileID: 2045313403}
   m_Layer: 6
   m_Name: PolyShape (107)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -118409,7 +118551,7 @@ GameObject:
   - component: {fileID: 2054252267}
   m_Layer: 6
   m_Name: PolyShape (216)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119059,7 +119201,7 @@ GameObject:
   - component: {fileID: 2062537494}
   m_Layer: 6
   m_Name: PolyShape (112)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119591,7 +119733,7 @@ GameObject:
   - component: {fileID: 2069415634}
   m_Layer: 6
   m_Name: PolyShape (99)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119788,7 +119930,7 @@ GameObject:
   - component: {fileID: 2069709820}
   m_Layer: 6
   m_Name: PolyShape (41)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -119985,7 +120127,7 @@ GameObject:
   - component: {fileID: 2073867969}
   m_Layer: 6
   m_Name: PolyShape (127)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120352,7 +120494,7 @@ GameObject:
   - component: {fileID: 2091807435}
   m_Layer: 6
   m_Name: PolyShape (134)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121379,7 +121521,7 @@ GameObject:
   - component: {fileID: 2102543189}
   m_Layer: 6
   m_Name: PolyShape (61)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121576,7 +121718,7 @@ GameObject:
   - component: {fileID: 2105345147}
   m_Layer: 6
   m_Name: PolyShape (273)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -121922,7 +122064,7 @@ GameObject:
   - component: {fileID: 2107331652}
   m_Layer: 6
   m_Name: PolyShape (244)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -122826,7 +122968,7 @@ GameObject:
   - component: {fileID: 2117702859}
   m_Layer: 6
   m_Name: PolyShape (84)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123023,7 +123165,7 @@ GameObject:
   - component: {fileID: 2120779449}
   m_Layer: 6
   m_Name: PolyShape (152)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123390,7 +123532,7 @@ GameObject:
   - component: {fileID: 2135487046}
   m_Layer: 6
   m_Name: PolyShape (124)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123922,7 +124064,7 @@ GameObject:
   - component: {fileID: 2142586788}
   m_Layer: 6
   m_Name: PolyShape (217)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -124352,6 +124494,8 @@ SceneRoots:
   - {fileID: 326760680}
   - {fileID: 1447100313}
   - {fileID: 1626818294}
+  - {fileID: 797505260}
+  - {fileID: 826528935}
   - {fileID: 993035506}
   - {fileID: 874683438}
   - {fileID: 1105906039}

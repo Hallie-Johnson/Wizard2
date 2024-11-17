@@ -59,7 +59,7 @@ public class C3RopePuzzle : MonoBehaviour
             else
             {
                 //Debug.Log("Incorrect destruction order. Respawning ropes and resetting.");
-                RespawnRopes();
+                StartCoroutine(RespawnRopesWithDelay());
                 destructionOrder.Clear();
             }
         }
@@ -80,15 +80,18 @@ public class C3RopePuzzle : MonoBehaviour
         return true;
     }
 
-    private void RespawnRopes()
+    private IEnumerator RespawnRopesWithDelay()
     {
+        // Wait for 3 seconds
+        yield return new WaitForSeconds(3.0f);
+
         // Re-enable the ropes (or respawn if needed)
         rope1.SetActive(true);
         rope2.SetActive(true);
         rope3.SetActive(true);
         rope4.SetActive(true);
 
-        //Debug.Log("Ropes have been respawned and are ready to try again.");
+        //Debug.Log("Ropes have been respawned after 3 seconds.");
     }
 
     private void Update()
