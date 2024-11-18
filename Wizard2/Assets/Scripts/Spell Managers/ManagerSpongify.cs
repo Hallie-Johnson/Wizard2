@@ -19,15 +19,18 @@ public class ManagerSpongify : MonoBehaviour
         Physics.gravity *= gravityModifier;
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision other)
     {
-        if (other.CompareTag("Player") && enableJumping == true)
+        // Check if the collided object has the tag "Player" and jumping is enabled
+        if (other.gameObject.CompareTag("Player") && enableJumping == true)
         {
-            ThirdPersonMovement playerMovement = other.GetComponent<ThirdPersonMovement>();
+            // Get the ThirdPersonMovement script from the player object
+            ThirdPersonMovement playerMovement = other.gameObject.GetComponent<ThirdPersonMovement>();
 
             if (playerMovement != null && !playerMovement.isGrounded)
             {
-                playerRb = other.GetComponent<Rigidbody>();
+                // Get the Rigidbody of the player object
+                playerRb = other.gameObject.GetComponent<Rigidbody>();
                 LaunchPlayer();
             }
         }

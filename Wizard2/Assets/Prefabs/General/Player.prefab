@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 4711711568981528050}
   - component: {fileID: 1999170931381941318}
   - component: {fileID: 1085719118660468153}
+  - component: {fileID: 7936719093223383784}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -136,8 +137,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cam: {fileID: 0}
   PlayerBody: {fileID: 1999170931381941318}
-  Speed: 3
-  Jumpforce: 5
   isGrounded: 0
   turnSmoothTime: 0.1
   animator: {fileID: 8413762468333110229}
@@ -231,6 +230,20 @@ CapsuleCollider:
   m_Height: 1.5848271
   m_Direction: 1
   m_Center: {x: 0, y: -0.23250204, z: 0}
+--- !u!114 &7936719093223383784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31625656041149245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26a6b985eaa748a48b43aa9274edaefc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enableSpongifyMovement: 0
+  PlayerBody: {fileID: 1999170931381941318}
 --- !u!1 &271875173572584813
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,8 +16,11 @@ public class ThirdPersonMovement : MonoBehaviour
     private Vector3 movementInput;
     private Vector3 movementVelocity;
 
+    private Vector3 smoothVelocity;
+
+
     // New flag to disable movement during a launch
-    [HideInInspector] public bool isLaunched = false;
+    public bool isLaunched = false;
 
     void Start()
     {
@@ -46,16 +49,6 @@ public class ThirdPersonMovement : MonoBehaviour
 
         // Handle animations
         HandleAnimations(horizontal, vertical);
-    }
-
-    private void FixedUpdate()
-    {
-        if (isLaunched) return; // Skip movement if launched
-
-        // Apply movement velocity
-        movementVelocity = movementInput * Speed;
-        Vector3 newVelocity = new Vector3(movementVelocity.x, PlayerBody.velocity.y, movementVelocity.z);
-        PlayerBody.velocity = newVelocity;
 
         // Handle jumping
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -63,6 +56,7 @@ public class ThirdPersonMovement : MonoBehaviour
             PlayerBody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
             isGrounded = false;
         }
+
     }
 
     private void HandleAnimations(float horizontal, float vertical)
@@ -100,5 +94,13 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             Speed = 6f;
         }
+
+        if (hit.gameObject.CompareTag("SpongifyTarget"))
+        {
+                Debug.Log("Player is on top of a SpongifyTarget!");
+
+        }
+
     }
+
 }
