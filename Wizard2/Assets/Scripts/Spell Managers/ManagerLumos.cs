@@ -18,55 +18,58 @@ public class ManagerLumos : MonoBehaviour
 
             if (shouldActivateLumos)
             {
-                // Change material to Standard Shader if not already
+                // Set up the material to be transparent
                 if (renderer != null)
                 {
-                    if (renderer.material.shader.name != "Standard")
+                    material = renderer.material;
+
+                    // Use URP/Lit shader if not already
+                    if (material.shader.name != "Universal Render Pipeline/Lit")
                     {
-                        renderer.material.shader = Shader.Find("Standard");
+                        material.shader = Shader.Find("Universal Render Pipeline/Lit");
                     }
 
-                    // Set material to Transparent mode
-                    material = renderer.material;
-                    material.SetFloat("_Mode", 3); // Set mode to Transparent
-                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
-                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
-                    material.SetInt("_ZWrite", 0);
-                    material.DisableKeyword("_ALPHATEST_ON");
-                    material.DisableKeyword("_ALPHABLEND_ON");
-                    material.EnableKeyword("_ALPHAPREMULTIPLY_ON");
-                    material.renderQueue = 3000;
+                    // Set material properties for transparency
+                    material.SetFloat("_Surface", 1); // Set Surface Type to Transparent
+                    material.SetFloat("_AlphaClip", 0); // Disable alpha clipping
+                    material.SetOverrideTag("RenderType", "Transparent");
+                    material.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Transparent;
 
-                    // Modify the material's color to make it 25% translucent
+                    // Adjust blending for transparency
+                    material.SetFloat("_SrcBlend", (float)UnityEngine.Rendering.BlendMode.SrcAlpha);
+                    material.SetFloat("_DstBlend", (float)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+
+                    // Set the alpha value for semi-transparency
                     Color color = material.color;
-                    color.a = 0.25f; // Set alpha to 25%
+                    color.a = 0.5f; // Set alpha to 50% (adjust as needed)
                     material.color = color;
                 }
 
-                // Remove the collider from the target object
+                // Optionally, remove the collider to make it pass-through
                 Collider collider = targetObject.GetComponent<Collider>();
                 if (collider != null)
                 {
-                    Destroy(collider); // Destroy the collider component
+                    Destroy(collider);
                 }
             }
             else
             {
-                // If the toggle is off, reset to opaque and add a collider back
+                // Reset to opaque if toggle is off
                 if (renderer != null)
                 {
-                    // Ensure the material is set to opaque
                     material = renderer.material;
-                    material.SetFloat("_Mode", 0); // Set mode to Opaque
-                    material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.One);
-                    material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.Zero);
-                    material.SetInt("_ZWrite", 1);
-                    material.EnableKeyword("_ALPHATEST_ON");
-                    material.DisableKeyword("_ALPHABLEND_ON");
-                    material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
-                    material.renderQueue = -1; // Default render queue for opaque
 
-                    // Reset material's color to fully opaque
+                    // Set material to opaque
+                    material.SetFloat("_Surface", 0); // Set Surface Type to Opaque
+                    material.SetFloat("_AlphaClip", 1); // Enable alpha clipping
+                    material.SetOverrideTag("RenderType", "Opaque");
+                    material.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Geometry;
+
+                    // Reset blending
+                    material.SetFloat("_SrcBlend", (float)UnityEngine.Rendering.BlendMode.One);
+                    material.SetFloat("_DstBlend", (float)UnityEngine.Rendering.BlendMode.Zero);
+
+                    // Reset color to fully opaque
                     Color color = material.color;
                     color.a = 1.0f; // Set alpha to 100%
                     material.color = color;
