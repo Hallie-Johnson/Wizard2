@@ -8,6 +8,8 @@ public class ManagerSpongify : MonoBehaviour
     public float launchTime = 1.5f;   // Time it should take to reach the target
     public float gravityModifier = 1.0f;  // Gravity adjustment for the arc
     private float heightAdjustment = 1.0f;  // Adjusts target Y to ensure landing
+    
+    public Animator animator;
 
     public bool enableJumping = false;
 
@@ -73,6 +75,7 @@ public class ManagerSpongify : MonoBehaviour
     public void EnableJumping()
     {
         enableJumping = true;
+        animator.SetBool("isActive", enableJumping);
         StartCoroutine(DisableJumpingAfterTime(5f)); // Disable jumping after 5 seconds
     }
 
@@ -80,6 +83,7 @@ public class ManagerSpongify : MonoBehaviour
     {
         yield return new WaitForSeconds(time);
         enableJumping = false;  // Disable jumping after the delay
+        animator.SetBool("isActive", enableJumping);
     }
 
 }
