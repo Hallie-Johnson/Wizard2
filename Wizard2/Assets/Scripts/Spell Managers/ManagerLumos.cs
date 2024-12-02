@@ -7,8 +7,52 @@ public class ManagerLumos : MonoBehaviour
     public GameObject targetObject; // Assign the target object in the Inspector
     public bool shouldActivateLumos = true; // Toggle setting to activate or deactivate the effect
 
+    public GameObject[] targetObjects = new GameObject[4]; // Array to hold 4 GameObjects
+    public Material lumosMaterial; // Material to apply to the target objects
+    public Material lumosBlockMaterial; // Material to apply to the target objects
+    public Animator animator; // Animator to control activation animations
+
     public void ActivateLumos()
     {
+
+        if (lumosMaterial == null)
+        {
+            Debug.LogWarning("Lumos material is not assigned.");
+            return;
+        }
+
+        // Apply the lumos material to each target object
+        foreach (GameObject target in targetObjects)
+        {
+            if (target != null)
+            {
+                Renderer renderer = target.GetComponent<Renderer>();
+                if (renderer != null)
+                {
+                    renderer.material = lumosMaterial; // Change the material
+                }
+                else
+                {
+                    Debug.LogWarning($"Renderer not found on {target.name}");
+                }
+            }
+            else
+            {
+                Debug.LogWarning("One of the target objects is null.");
+            }
+        }
+
+        // Activate the animator if assigned
+        if (animator != null)
+        {
+            animator.SetBool("isActivated", true); // Set the activation boolean
+        }
+        else
+        {
+            Debug.LogWarning("Animator is not assigned.");
+        }
+
+
         // Check if the target object is assigned
         if (targetObject != null)
         {
@@ -54,25 +98,24 @@ public class ManagerLumos : MonoBehaviour
             }
             else
             {
-                // Reset to opaque if toggle is off
-                if (renderer != null)
+                MeshRenderer meshRenderer = targetObject.GetComponent<MeshRenderer>();
+                if (meshRenderer != null)
                 {
-                    material = renderer.material;
+                    meshRenderer.enabled = true; // Ensure the mesh is visible
 
-                    // Set material to opaque
-                    material.SetFloat("_Surface", 0); // Set Surface Type to Opaque
-                    material.SetFloat("_AlphaClip", 1); // Enable alpha clipping
-                    material.SetOverrideTag("RenderType", "Opaque");
-                    material.renderQueue = (int)UnityEngine.Rendering.RenderQueue.Geometry;
-
-                    // Reset blending
-                    material.SetFloat("_SrcBlend", (float)UnityEngine.Rendering.BlendMode.One);
-                    material.SetFloat("_DstBlend", (float)UnityEngine.Rendering.BlendMode.Zero);
-
-                    // Reset color to fully opaque
-                    Color color = material.color;
-                    color.a = 1.0f; // Set alpha to 100%
-                    material.color = color;
+                    // Set the material to the predefined one
+                    if (lumosMaterial != null)
+                    {
+                        meshRenderer.material = lumosBlockMaterial;
+                    }
+                    else
+                    {
+                        Debug.LogWarning("Lumos material is not assigned.");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning($"MeshRenderer not found on {targetObject.name}");
                 }
 
                 // Ensure there is a collider on the target object
