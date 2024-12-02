@@ -5,7 +5,7 @@ using UnityEngine;
 public class FireBall : MonoBehaviour
 {
     public float lifetime = 5f;  // Duration before the fireball is destroyed
-    public float knockbackForce = 10f;   // Force to push the player backwards
+    private float knockbackForce = 20f;   // Force to push the player backwards
 
     void Start()
     {

@@ -19,6 +19,9 @@ TagManager:
   - SpongifyTarget
   - FxTemporaire
   - Death
+  - Fireball
+  - Star
+  - Card
   layers:
   - Default
   - TransparentFX
