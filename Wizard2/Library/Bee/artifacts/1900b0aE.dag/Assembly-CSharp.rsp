@@ -394,6 +394,8 @@
 "Assets/Scripts/Challenge Managers/C3StarPlatform.cs"
 "Assets/Scripts/Challenge Managers/C4Rotate.cs"
 "Assets/Scripts/Challenge Managers/Challenge1.cs"
+"Assets/Scripts/GradeManager.cs"
+"Assets/Scripts/HealthManager.cs"
 "Assets/Scripts/HubManager.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Old/PlayerMovement.cs"
