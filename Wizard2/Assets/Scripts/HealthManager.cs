@@ -26,6 +26,8 @@ public class HealthManager : MonoBehaviour
 
     private bool gameOver;
 
+    private bool hitByDeath;
+
 
 
     void OnCollisionEnter(Collision collision)
@@ -45,6 +47,7 @@ public class HealthManager : MonoBehaviour
         if (collision.gameObject.CompareTag("Death"))
         {
             Debug.Log("Player hit by a death!");
+            hitByDeath = true;
             DecreaseHealth(health_max);
         }
     }
@@ -75,7 +78,7 @@ public class HealthManager : MonoBehaviour
     void Start()
     {
         gameOver = false;
-
+        hitByDeath = false;
         health = health_max;
 
         // Get references to player components
@@ -106,7 +109,7 @@ public class HealthManager : MonoBehaviour
         gameOver = true;
 
         // Trigger the fail animation
-        if (playerAnimator != null)
+        if (playerAnimator != null && hitByDeath == false)
         {
             playerAnimator.SetTrigger("isDead");
         }

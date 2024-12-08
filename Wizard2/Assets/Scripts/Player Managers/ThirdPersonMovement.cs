@@ -21,6 +21,16 @@ public class ThirdPersonMovement : MonoBehaviour
     public bool movement;
     private bool dead;
 
+    public AudioClip walkSound;
+    public AudioClip deathSound;
+    public AudioClip victorySound;
+    public AudioClip cardSound;
+    public AudioClip castingSound;
+    public AudioClip castedSound;
+    public AudioClip hitSound;
+    private AudioSource loopAudioSource;
+    private AudioSource oneShotAudioSource;
+
 
     // New flag to disable movement during a launch
     public bool isLaunched = false;
@@ -30,6 +40,12 @@ public class ThirdPersonMovement : MonoBehaviour
         movement = true;
         Cursor.lockState = CursorLockMode.Locked;
         PlayerBody.collisionDetectionMode = CollisionDetectionMode.Continuous;
+
+        loopAudioSource = gameObject.AddComponent<AudioSource>();
+        oneShotAudioSource = gameObject.AddComponent<AudioSource>();
+
+        // Configure loopAudioSource
+        loopAudioSource.loop = true;
     }
 
     private void Update()
@@ -61,18 +77,23 @@ public class ThirdPersonMovement : MonoBehaviour
             // Handle animations
             HandleAnimations(horizontal, vertical);
 
+            HandleWalkingSound(horizontal, vertical);
+
             // Handle jumping
             if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
             {
                 PlayerBody.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
                 isGrounded = false;
             }
+
+            HandleCastingSound();
+
+
         } else
         {
+            loopAudioSource.enabled = false;
             return;
         }
-        
-
     }
 
     private void HandleAnimations(float horizontal, float vertical)
@@ -90,6 +111,47 @@ public class ThirdPersonMovement : MonoBehaviour
         }
     }
 
+    private void HandleWalkingSound(float horizontal, float vertical)
+    {
+        bool isMoving = (horizontal != 0 || vertical != 0);
+
+        if (isMoving && isGrounded)
+        {
+            if (loopAudioSource.clip != walkSound || !loopAudioSource.isPlaying)
+            {
+                loopAudioSource.clip = walkSound;
+                loopAudioSource.loop = true;
+                loopAudioSource.Play();
+            }
+        }
+        else if (loopAudioSource.clip == walkSound)
+        {
+            loopAudioSource.Stop();
+        }
+    }
+
+    private void HandleCastingSound()
+    {
+        if (Input.GetMouseButton(0))
+        {
+            if (loopAudioSource != castingSound || !loopAudioSource.isPlaying)
+            {
+                loopAudioSource.clip = castingSound;
+                loopAudioSource.loop = true;
+                loopAudioSource.Play();
+            }
+        }
+        else if (Input.GetMouseButtonUp(0))
+        {
+            if (loopAudioSource.clip == castingSound)
+            {
+                loopAudioSource.Stop();
+            }
+
+            oneShotAudioSource.PlayOneShot(castedSound);
+        }
+    }
+
     private void OnCollisionEnter(Collision hit)
     {
         if (hit.gameObject.CompareTag("Ground") || hit.gameObject.CompareTag("Wall") || hit.gameObject.CompareTag("Flipendo") || hit.gameObject.CompareTag("Stairs"))
@@ -101,6 +163,7 @@ public class ThirdPersonMovement : MonoBehaviour
         if (hit.gameObject.CompareTag("Skurge"))
         {
             Speed = 0.5f;
+            oneShotAudioSource.PlayOneShot(hitSound);
         }
         else if (hit.gameObject.CompareTag("Stairs"))
         {
@@ -121,6 +184,12 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             dead = true;
             animator.SetTrigger("isFalling");
+            oneShotAudioSource.PlayOneShot(deathSound);
+        }
+
+        if (hit.gameObject.CompareTag("Fireball"))
+        {
+            oneShotAudioSource.PlayOneShot(hitSound);
         }
 
 
@@ -133,6 +202,10 @@ public class ThirdPersonMovement : MonoBehaviour
         {
             movement = false;
             animator.SetTrigger("isVictory");
+            oneShotAudioSource.PlayOneShot(victorySound);
+        } else if (other.gameObject.CompareTag("Card"))
+        {
+            oneShotAudioSource.PlayOneShot(cardSound);
         }
     }
 

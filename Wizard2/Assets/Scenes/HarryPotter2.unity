@@ -1178,11 +1178,11 @@ PrefabInstance:
       objectReference: {fileID: 1863761062}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0000000073594086
+      value: -0.000000007359408
       objectReference: {fileID: 0}
     - target: {fileID: 800997970471112859, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0000000044557824
+      value: -0.000000004455782
       objectReference: {fileID: 0}
     - target: {fileID: 4941317688239859725, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1226,11 +1226,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.000000007359408
+      value: 0.0000000073594086
       objectReference: {fileID: 0}
     - target: {fileID: 5832902486560950457, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000004455782
+      value: 0.0000000044557824
       objectReference: {fileID: 0}
     - target: {fileID: 7662490183762182570, guid: 4e6c5769036a9b04e8fe9475236ea7ec, type: 3}
       propertyPath: m_Name
@@ -1362,11 +1362,20 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 60337387}
+    - target: {fileID: 2480308471588005041, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
+      propertyPath: cardSound
+      value: 
+      objectReference: {fileID: 8300000, guid: fda36de0ed241114888ff5d03fb17f00, type: 3}
     - target: {fileID: 4711711568981528050, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
       propertyPath: mainCamera
       value: 
       objectReference: {fileID: 60337386}
-    m_RemovedComponents: []
+    - target: {fileID: 7776298971856024424, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7776298971856024424, guid: 894b341441d3e0f4daa5b69832d72c5f, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

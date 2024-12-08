@@ -25,11 +25,13 @@ public class ManagerRictusempra : MonoBehaviour
     public float arcHeight = 10f;  // Height of the arc for the projectile
     private float shootingInterval = 1.9f;  // Interval between shots in seconds
 
-
+    public AudioClip fireballSound;
+    private AudioSource oneShotAudioSource;
 
     void Start()
     {
         targetPoint = pointA;
+        oneShotAudioSource = gameObject.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -186,6 +188,7 @@ public class ManagerRictusempra : MonoBehaviour
 
     void ShootProjectileAtPlayer()
     {
+        oneShotAudioSource.PlayOneShot(fireballSound);
         // Double-check if the crab is in a state where it can shoot
         AnimatorStateInfo stateInfo = crabAnimator.GetCurrentAnimatorStateInfo(0);  // 0 is the layer index
         if (stateInfo.IsName("get_up") || stateInfo.IsName("stunned"))

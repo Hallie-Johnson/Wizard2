@@ -5,11 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class HubManager : MonoBehaviour
 {
+    public GameObject player;
     public GameObject challenge1Object;
     private GameObject challenge2Object;
     public GameObject challenge3Object;
     public GameObject challenge4Object;
 
+    public Canvas challenge0Canvas;
     public Canvas challenge1Canvas;
     public Canvas challenge2Canvas;
     public Canvas challenge3Canvas;
@@ -19,6 +21,24 @@ public class HubManager : MonoBehaviour
 
     void Update()
     {
+
+        if (player != null) // Ensure the player object exists
+        {
+            float playerZ = player.transform.position.z; // Get the player's z value
+
+            if (playerZ < 49)
+            {
+                challenge0Canvas.gameObject.SetActive(true);
+                enableCursor();
+
+                Vector3 newPosition = player.transform.position; // Get the current position
+                newPosition.z += 1f; // Add 5 units to the Z position
+                newPosition.y = 1f;
+                player.transform.position = newPosition; // Set the new position
+            }
+        }
+
+
         challenge2Object = GameObject.Find("Skurge");
         //Debug.Log(GameObject.Find("Skurge"));
 
@@ -89,6 +109,11 @@ public class HubManager : MonoBehaviour
         SceneManager.LoadSceneAsync(5);
     }
 
+    public void Menu()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
+
     public void closePopup()
     {
         Debug.Log("CLOSING");
@@ -112,6 +137,7 @@ public class HubManager : MonoBehaviour
         ManagerSpongify challenge4Script = challenge4Object.GetComponent<ManagerSpongify>();
         challenge4Script.enableJumping = false;
 
+        challenge0Canvas.gameObject.SetActive(false);
         challenge1Canvas.gameObject.SetActive(false);
         challenge2Canvas.gameObject.SetActive(false);
         challenge3Canvas.gameObject.SetActive(false);
