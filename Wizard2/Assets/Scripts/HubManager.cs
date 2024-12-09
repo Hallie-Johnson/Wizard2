@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class HubManager : MonoBehaviour
 {
@@ -11,16 +12,92 @@ public class HubManager : MonoBehaviour
     public GameObject challenge3Object;
     public GameObject challenge4Object;
 
+    public GameObject victoryObject;
+    public GameObject victoryStarObject;
+
     public Canvas challenge0Canvas;
     public Canvas challenge1Canvas;
     public Canvas challenge2Canvas;
     public Canvas challenge3Canvas;
     public Canvas challenge4Canvas;
 
+    public Canvas passedCanvas;
+    public Canvas failedCanvas;
+    public Canvas instructionsCanvas;
+    private bool showedInstructions;
+
+    public TextMeshProUGUI gradeC1Text;
+    public TextMeshProUGUI gradeC2Text;
+    public TextMeshProUGUI gradeC3Text;
+    public TextMeshProUGUI gradeC4Text;
+
     public GameObject skurgePrefab;
+
+    void Start()
+    {
+        victoryObject.SetActive(false);
+        failedCanvas.gameObject.SetActive(false);
+        passedCanvas.gameObject.SetActive(false);
+        showedInstructions = false;
+
+
+        if (GameManager.Instance != null)
+        {
+            gradeC1Text.text = gradeC1Text.text + GameManager.Instance.c1_grade;
+            gradeC2Text.text = gradeC2Text.text + GameManager.Instance.c2_grade;
+            gradeC3Text.text = gradeC3Text.text + GameManager.Instance.c3_grade;
+            gradeC4Text.text = gradeC4Text.text + GameManager.Instance.c4_grade;
+        }
+    }
 
     void Update()
     {
+        if (GameManager.Instance != null)
+        {
+            if (GameManager.Instance.c1_grade.Equals("N/A") || GameManager.Instance.c2_grade.Equals("N/A") || GameManager.Instance.c3_grade.Equals("N/A") || GameManager.Instance.c4_grade.Equals("N/A"))
+            {
+                if (GameManager.Instance.c1_grade.Equals("N/A") && GameManager.Instance.c2_grade.Equals("N/A") && GameManager.Instance.c3_grade.Equals("N/A") && GameManager.Instance.c4_grade.Equals("N/A") && showedInstructions == false)
+                {
+                    enableCursor();
+                    instructionsCanvas.gameObject.SetActive(true);
+                    showedInstructions = true;
+                }
+            } 
+            else
+            {
+                if (GameManager.Instance.c1_grade.Equals("A") && GameManager.Instance.c2_grade.Equals("A") && GameManager.Instance.c3_grade.Equals("A") && GameManager.Instance.c4_grade.Equals("A"))
+                {
+                    victoryObject.SetActive(true);
+                }
+                else if (GameManager.Instance.c1_grade.Equals("F") || GameManager.Instance.c2_grade.Equals("F") || GameManager.Instance.c3_grade.Equals("F") || GameManager.Instance.c4_grade.Equals("F"))
+                {
+                    enableCursor();
+                    failedCanvas.gameObject.SetActive(true);
+                }
+                else
+                {
+                    enableCursor();
+                    passedCanvas.gameObject.SetActive(true);
+                }
+
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.H))
+        {
+            enableCursor();
+            instructionsCanvas.gameObject.SetActive(true);
+        }
+
+        float flipendoZ = victoryObject.transform.position.z;
+        if (flipendoZ > 95)
+        {
+            if (victoryStarObject != null)
+            {
+                victoryStarObject.SetActive(true);
+            }
+        }
+
 
         if (player != null) // Ensure the player object exists
         {
@@ -136,6 +213,8 @@ public class HubManager : MonoBehaviour
 
         ManagerSpongify challenge4Script = challenge4Object.GetComponent<ManagerSpongify>();
         challenge4Script.enableJumping = false;
+
+        instructionsCanvas.gameObject.SetActive(false);
 
         challenge0Canvas.gameObject.SetActive(false);
         challenge1Canvas.gameObject.SetActive(false);

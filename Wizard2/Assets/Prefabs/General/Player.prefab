@@ -67,6 +67,7 @@ MonoBehaviour:
   walkSound: {fileID: 8300000, guid: b9f8144d9caa99241a30f8d5ea1db3f5, type: 3}
   deathSound: {fileID: 8300000, guid: 83a347764af20d84a8a5a4f5de2bb6be, type: 3}
   victorySound: {fileID: 8300000, guid: a18d0e547890d9c4a991e089edfc332b, type: 3}
+  cardSound: {fileID: 8300000, guid: fda36de0ed241114888ff5d03fb17f00, type: 3}
   castingSound: {fileID: 8300000, guid: 041b0f000a65e4e4582a7cd1d454a850, type: 3}
   castedSound: {fileID: 8300000, guid: b86d40b9145f9234cb2f7b98fce5d346, type: 3}
   hitSound: {fileID: 8300000, guid: 81ca59f75a5aef44f9d20e1d9faf6dd0, type: 3}
@@ -217,7 +218,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0a02d9a4f702b84cbbf6fde9453bbbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timerInSeconds: 30
+  timerInSeconds: 400
   timerText: {fileID: 8357147464689766189}
   gradeText: {fileID: 5584293784651618687}
   cardText: {fileID: 8462362570724357467}
@@ -1131,7 +1132,7 @@ Transform:
   m_GameObject: {fileID: 6769689001357028723}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.6, y: 0.5, z: -0.03}
+  m_LocalPosition: {x: 0.58, y: 0.5, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

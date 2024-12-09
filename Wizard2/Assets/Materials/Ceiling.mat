@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Ceiling
   m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
-  m_Parent: {fileID: 2100000, guid: 9d9e91e7711008945a0199ad33c63ab1, type: 2}
+  m_Parent: {fileID: 2100000, guid: 38675530fa92e264aa32c8bdee1aba31, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []

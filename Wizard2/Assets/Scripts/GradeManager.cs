@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
+
 public class GradeManager : MonoBehaviour
 {
     // Timer variables
@@ -33,10 +34,15 @@ public class GradeManager : MonoBehaviour
     // Canvas object to enable on "F"
     public GameObject failCanvas;
 
+    private bool gameOver;
+
 
 
     void Start()
     {
+
+        gameOver = false;
+
         currentTime = timerInSeconds; // Initialize the timer
 
         gradeAThreshold = (timerInSeconds / 4) * 3;
@@ -71,6 +77,15 @@ public class GradeManager : MonoBehaviour
             currentTime -= Time.deltaTime; // Decrease time
             if (currentTime < 0) currentTime = 0; // Prevent negative time
             UpdateUI(); // Update the UI with the current time and grade
+        }
+
+        if (gameOver)
+        {
+            DestroyAllFireballs();
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                SceneManager.LoadSceneAsync(1);
+            }
         }
     }
 
@@ -116,6 +131,7 @@ public class GradeManager : MonoBehaviour
 
     void HandleFailState()
     {
+
         // Trigger the fail animation
         if (playerAnimator != null)
         {
@@ -138,6 +154,30 @@ public class GradeManager : MonoBehaviour
             }
         }
 
+        if (GameManager.Instance != null)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            //Debug.Log("Current Scene Name: " + currentSceneName);
+            if (currentSceneName.Equals("C1"))
+            {
+                GameManager.Instance.c1_grade = "F";
+            }
+            else if (currentSceneName.Equals("C2"))
+            {
+                GameManager.Instance.c2_grade = "F";
+            }
+            else if (currentSceneName.Equals("C3"))
+            {
+                GameManager.Instance.c3_grade = "F";
+            }
+            else if (currentSceneName.Equals("C4"))
+            {
+                GameManager.Instance.c4_grade = "F";
+            }
+        }
+
+            
+
         StartCoroutine(failscreen());
 
         
@@ -145,7 +185,9 @@ public class GradeManager : MonoBehaviour
 
     IEnumerator failscreen()
     {
-        yield return new WaitForSeconds(4.5f);
+        yield return new WaitForSeconds(4f);
+
+        gameOver = true;
 
         // Enable the fail canvas
         if (failCanvas != null)
@@ -155,15 +197,22 @@ public class GradeManager : MonoBehaviour
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
-
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadSceneAsync(1);
-        }
     }
 
     public void LeaveExam()
     {
         SceneManager.LoadSceneAsync(1);
+    }
+
+    void DestroyAllFireballs()
+    {
+        // Find all objects with the "Fireball" tag
+        GameObject[] fireballs = GameObject.FindGameObjectsWithTag("Fireball");
+
+        // Loop through and destroy each one
+        foreach (GameObject fireball in fireballs)
+        {
+            Destroy(fireball);
+        }
     }
 }

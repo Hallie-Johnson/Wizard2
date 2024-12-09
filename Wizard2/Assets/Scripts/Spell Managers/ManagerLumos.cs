@@ -14,6 +14,7 @@ public class ManagerLumos : MonoBehaviour
 
     public void ActivateLumos()
     {
+        gameObject.tag = "Untagged";
 
         if (lumosMaterial == null)
         {

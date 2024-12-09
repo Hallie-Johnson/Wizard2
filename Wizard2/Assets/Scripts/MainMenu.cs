@@ -16,11 +16,15 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         audioSource = GetComponent<AudioSource>();
-        SceneManager.LoadSceneAsync(1);
+        SceneManager.LoadSceneAsync(6);
     }
 
-    public void QuitGame()
+    public void ResetGame()
     {
-        Application.Quit();
+        GameManager.Instance.c1_grade = "N/A";
+        GameManager.Instance.c2_grade = "N/A";
+        GameManager.Instance.c3_grade = "N/A";
+        GameManager.Instance.c4_grade = "N/A";
+        SceneManager.LoadSceneAsync(0);
     }
 }

@@ -130,6 +130,28 @@ public class HealthManager : MonoBehaviour
             }
         }
 
+        if (GameManager.Instance != null)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            //Debug.Log("Current Scene Name: " + currentSceneName);
+            if (currentSceneName.Equals("C1"))
+            {
+                GameManager.Instance.c1_grade = "F";
+            }
+            else if (currentSceneName.Equals("C2"))
+            {
+                GameManager.Instance.c2_grade = "F";
+            }
+            else if (currentSceneName.Equals("C3"))
+            {
+                GameManager.Instance.c3_grade = "F";
+            }
+            else if (currentSceneName.Equals("C4"))
+            {
+                GameManager.Instance.c4_grade = "F";
+            }
+        }
+
         StartCoroutine(failscreen());
     }
 
@@ -180,7 +202,16 @@ public class HealthManager : MonoBehaviour
             }
         }
 
-        StartCoroutine(passscreen());
+        if (GameManager.Instance != null)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            //Debug.Log("Current Scene Name: " + currentSceneName);
+            if (!currentSceneName.Equals("Hub"))
+            {
+                StartCoroutine(passscreen());
+            }
+        }
+        
     }
 
 
@@ -195,6 +226,28 @@ public class HealthManager : MonoBehaviour
         }
 
         finalGradeText.text = gradeText.text;
+
+        if (GameManager.Instance != null)
+        {
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            //Debug.Log("Current Scene Name: " + currentSceneName);
+            if (currentSceneName.Equals("C1"))
+            {
+                GameManager.Instance.c1_grade = finalGradeText.text;
+            }
+            else if (currentSceneName.Equals("C2"))
+            {
+                GameManager.Instance.c2_grade = finalGradeText.text;
+            }
+            else if (currentSceneName.Equals("C3"))
+            {
+                GameManager.Instance.c3_grade = finalGradeText.text;
+            }
+            else if (currentSceneName.Equals("C4"))
+            {
+                GameManager.Instance.c4_grade = finalGradeText.text;
+            }
+        }
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
